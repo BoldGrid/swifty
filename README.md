@@ -1,4 +1,4 @@
-# Grid One
+# Swifty
 - Contributors: ajda99, ciscorey, JimiRadabaugh, rramo012, timph
 - Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-40
 - Requires at least: 4.3
