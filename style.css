@@ -1,0 +1,450 @@
+/*
+Theme Name: Swifty
+Author: The BoldGrid Team
+Theme URI: http://www.boldgrid.com/swifty
+Author URI: http://www.boldgrid.com/the-team
+Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
+Version: 1.19
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: boldgrid-gridone
+Template: prime
+Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-40
+*/
+
+/*------------------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+--------------------------------------------------------------------------
+# Base Styles
+	## Positioning
+	## Typography
+	## Titles
+	## Buttons
+	## Et Cetera
+# Header
+# Navigation
+	## Main Menu
+	## Other Menus
+	## Social Menus
+# Modules
+	## Global
+# Pages
+# Posts
+# Plugins
+	## WooCommerce
+# Footer
+------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------
+# Base Styles
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Positioning
+-----------------------------------------------*/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	margin: 1em 0;
+}
+p {
+	margin-bottom: 15px;
+}
+.mod-divider p {
+	margin-top: -30px;
+}
+
+/*-----------------------------------------------
+## Typography
+-----------------------------------------------*/
+h2,
+.title-main {
+	font-weight: bold;
+}
+.site-footer a {
+	text-decoration: underline;
+}
+.entry-title a:hover,
+.button-primary:hover,
+.button-primary:active,
+.button-secondary:hover,
+.button-secondary:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.woocommerce p.buttons a.button:hover,
+.woocommerce p.buttons a.button:focus,
+.site-footer a:hover,
+.site-footer a:focus {
+	text-decoration: none;
+}
+#menu-social li a {
+	text-align: right;
+}
+
+/* Icons */
+.mod-divider i {
+	font-size: 52px;
+	padding: 0 .5em;
+}
+.mod-icon-circle i {
+	font-size: 35px;
+}
+
+/* xs */
+.entry-title,
+#secondary-menu,
+#tertiary-menu,
+.mod-divider p,
+.site-footer,
+.site-info,
+.attribution,
+.site-title,
+.site-description,
+.navbar-default .navbar-nav,
+.navbar-default .navbar-nav .open .dropdown-menu,
+.menu-social,
+.title-main,
+.xs-center,
+.mod-img,
+.mod-img-circle,
+.p-button-primary,
+.p-button-secondary {
+	text-align: center;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.navbar-default .navbar-nav,
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		text-align: left;
+	}
+	.menu-social {
+		text-align: right;
+	}
+}
+
+/* md */
+@media (min-width: 992px) {
+	.site-title,
+	.site-description,
+	.xs-center,
+	.mod-img,
+	.mod-img-circle,
+	.p-button-primary,
+	.p-button-secondary {
+		text-align: left;
+	}
+	.title-main {
+		text-align: right;
+	}
+}
+
+/*-----------------------------------------------
+## Titles
+-----------------------------------------------*/
+.page-template-page_home .entry-title {
+	display: none;
+}
+.title-main {
+	margin: 0;
+	padding: 20px 0;
+}
+.post-title-hidden .entry-meta {
+	margin-top: 50px;
+}
+.entry-title {
+	display: block;
+	margin: 60px 0;
+	position: relative;
+	z-index: 1;
+}
+.entry-title::before {
+	bottom: 0;
+	content:"";
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	z-index: -1;
+}
+.entry-title a {
+	padding: 0 15px;
+}
+
+/*-----------------------------------------------
+## Buttons
+-----------------------------------------------*/
+.button-primary,
+.button-secondary,
+input[type="submit"] {
+	border-radius: 2px;
+	display: inline-block;
+	padding: 8px 15px;
+}
+
+/* Positioning */
+.p-button-primary,
+.p-button-secondary {
+	margin: 25px 0;
+	padding-top: 15px;
+}
+
+/* Block vs. Inline */
+.button-primary,
+.button-secondary {
+	display: block;
+	margin-top: 15px;
+}
+.call-to-action .p-button-primary {
+	margin-top: 0;
+}
+
+/* sm */
+@media (min-width: 500px) {
+	.button-primary,
+	.button-secondary,
+	.call-to-action .p-button-primary {
+		display: inline;
+		margin-top: 0;
+	}
+	.gridblock .p-button-secondary {
+		margin: 25px 0;
+	}
+}
+
+/*-----------------------------------------------
+## Et Cetera
+-----------------------------------------------*/
+hr {
+	border: 0;
+	height: 1px;
+}
+
+/*------------------------------------------------------------------------
+# Header
+------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------
+# Navigation
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Main Menu
+-----------------------------------------------*/
+.navbar {
+	background-color: none;
+	border: none;
+	min-height: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.navbar-default {
+	background: none;
+	margin-bottom: 0;
+}
+.navbar-default .navbar-nav {
+	margin-left: -15px;
+}
+
+/* Links */
+.navbar-default .navbar-nav > li > a {
+	padding: 10px;
+}
+.navbar-default .navbar-nav > li:first-child > a {
+	margin-left: 0;
+}
+
+/* Hover & Active */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .current-menu-parent > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	background: none;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.navbar-default {
+		float: right;
+	}
+}
+
+/*-----------------------------------------------
+## Other Menus
+-----------------------------------------------*/
+#secondary-menu a,
+#tertiary-menu a,
+#menu-social a {
+	padding: 0 5px;
+}
+#secondary-menu,
+#tertiary-menu {
+	background: none;
+}
+.footer-center-menu {
+	padding: 1.1em 0;
+}
+.footer-center-items li::after,
+.boldgrid-framework-menu li::after {
+	content: "";
+}
+
+/*-----------------------------------------------
+## Social Menus
+-----------------------------------------------*/
+.menu-social {
+	padding: 0;
+}
+.menu-social ul {
+	padding-left: 0;
+}
+.menu-social li {
+	display: inline;
+	list-style: none;
+	padding-right: 10px;
+}
+#menu-social ul {
+	padding-left: 0px;
+}
+#menu-social ul li {
+	position: relative;
+	display:  inline-block;
+}
+#menu-social li a {
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+}
+.navbar-nav .menu-social {
+	margin-top: 0;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.menu-social {
+		margin-top: 15px;
+		padding-right: 15px;
+	}
+}
+
+/*------------------------------------------------------------------------
+# Modules
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Global
+-----------------------------------------------*/
+.mod-divider {
+	margin: 4em 0;
+}
+.mod-icon-circle i {
+	border-radius: 50%;
+	padding: 15px;
+}
+.mod-icon-circle .fa-lightbulb-o {
+	padding: 15px 20px;
+}
+blockquote,
+.mod-blockquote {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+blockquote p,
+.mod-blockquote p {
+	padding-left: 15px;
+}
+
+/*------------------------------------------------------------------------
+# Pages
+------------------------------------------------------------------------*/
+/* 404 Page */
+.error404 .list-group-item {
+	background: transparent;
+	border: none;
+}
+/* Search Page */
+.search .jumbotron {
+	background: none;
+}
+/*------------------------------------------------------------------------
+# Posts
+------------------------------------------------------------------------*/
+.widget-area {
+	margin-top: 25px;
+	padding: 25px;
+	list-style:none;
+}
+
+/* Comments */
+.comment-form-comment label {
+	float: left;
+	padding-right: 15px;
+}
+.panel-footer {
+	padding: 20px 15px;
+}
+
+/* Call to Action */
+.single .call-to-action {
+	display: none;
+}
+
+/* Buttons */
+.form-submit .submit {
+	margin-bottom: 10px;
+}
+
+/*------------------------------------------------------------------------
+# Plugins
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## WooCommerce
+-----------------------------------------------*/
+.woocommerce .page-title {
+	margin: 0;
+}
+.woocommerce p.buttons a.button:hover {
+	background-image: none;
+	text-decoration: none;
+}
+
+/*------------------------------------------------------------------------
+# Footer
+------------------------------------------------------------------------*/
+.site-info {
+	margin-bottom: -10px;
+}
+.footer-center-items {
+	padding-left: 0;
+}
+.footer-center-items li a {
+	padding: 5px;
+}
+.attribution {
+	padding-bottom: 30px;
+}
+
+
+/*------------------------------------------------------------------------
+# Appended
+------------------------------------------------------------------------*/
+.site-branding {
+	padding-bottom: 10px;
+}
+.site-title, .site-description {
+	margin: 0;
+}
+.entry-content {
+	margin: 0;
+}
