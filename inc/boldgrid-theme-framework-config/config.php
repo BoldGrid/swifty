@@ -4,7 +4,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 * General Configs
 	 */
 	// Text domain.
-	$boldgrid_framework_configs['theme_name'] = 'boldgrid-gridone';
+	$boldgrid_framework_configs['theme_name'] = 'boldgrid-swifty';
 	// Enable Sticky Footer.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
 	// Enable typography controls.
