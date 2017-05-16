@@ -119,8 +119,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['template']['tagline-classes'] = 'h4 alt-font site-description';
 
 	// Button Classes.
-	$boldgrid_framework_configs['components']['buttons']['variables']['button-primary-classes'] = '.btn, .btn-3d, .btn-rounded';
-	$boldgrid_framework_configs['components']['buttons']['variables']['button-secondary-classes'] = '.btn, .btn-3d, .btn-rounded';
+	$boldgrid_framework_configs['components']['buttons']['variables']['button-primary-classes'] = '.btn';
+	$boldgrid_framework_configs['components']['buttons']['variables']['button-secondary-classes'] = '.btn';
 
 	// Social Icons.
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
