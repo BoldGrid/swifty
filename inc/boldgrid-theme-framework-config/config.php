@@ -116,7 +116,11 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 150;
 
 	// Typography Tagline Classes.
-	$boldgrid_framework_configs['template']['tagline-classes'] = 'h4 alt-font';
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h4 alt-font site-description';
+
+	// Button Classes.
+	$boldgrid_framework_configs['components']['buttons']['variables']['button-primary-classes'] = '.btn, .btn-3d, .btn-rounded';
+	$boldgrid_framework_configs['components']['buttons']['variables']['button-secondary-classes'] = '.btn, .btn-3d, .btn-rounded';
 
 	// Social Icons.
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
@@ -148,7 +152,6 @@ function filter_logo_controls( $controls ) {
 	$controls['logo_letter_spacing']['default'] = 0;
 	$controls['logo_text_transform']['default'] = 'none';
 
-	// Controls above will override framework defaults
 	return $controls;
 }
 add_filter( 'kirki/fields', 'filter_logo_controls' );

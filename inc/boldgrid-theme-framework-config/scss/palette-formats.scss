@@ -8,31 +8,10 @@
 	/*-----------------------------------------------
 	## 1
 	-----------------------------------------------*/
-	.button-primary,
-	input[type="submit"],
 	.widget .table-striped > tbody > tr:nth-child(2n+1) > td  {
 		background: $palette-primary_1;
 		border: 1px solid $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
-	}
-	.button-secondary {
-		background: $palette-primary_2;
-		border: 1px solid $palette-primary_2;
-		color: $text-contrast-palette-primary_1;
-	}
-	.button-primary:hover,
-	.button-primary:active,
-	input[type="submit"]:hover,
-	input[type="submit"]:focus  {
-		background: $palette-primary_2;
-		border: 1px solid $palette-primary_2;
-		color: $text-contrast-palette-primary_1;
-	}
-	.button-secondary:hover,
-	.button-secondary:active {
-		background: none;
-		border: 1px solid $palette-primary_1;
-		color: $palette-primary_1;
 	}
 	h1,
 	h2,
@@ -44,32 +23,16 @@
 	#menu-social li a {
 		color: $palette-primary_1;
 	}
-	.title-main {
-		border-bottom: 1px solid $palette-primary_1;
-		border-top: 1px solid $palette-primary_1;
-		color: $palette-primary_1;
-	}
 	hr {
 		background: $palette-primary_1;
 	}
-	.mod-blockquote {
-		border-left: 7px solid $palette-primary_1;
-	}
-	.mod-icon-circle i {
-		border: 2px solid $palette-primary_1;
-		color: $palette-primary_1;
-	}
-	.mod-divider {
-		border-top: 1px solid $text-contrast-palette-primary_3;
-	}
-	.entry-title:before {
+	.entry-title::before {
 		border-top: 1px solid $palette-primary_1;
 	}
 	.navbar-default .navbar-nav > .open > a,
 	.navbar-default .navbar-nav > .open > a:hover,
 	.navbar-default .navbar-nav > .open > a:focus,
 	.navbar-default .navbar-nav > .current-menu-parent > a,
-
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus  {
 		background: $palette-primary_2;
@@ -114,24 +77,12 @@
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: $palette-primary_2;
 	}
-	.form-submit .submit {
-		background: $palette-primary_1;
-		color: $text-contrast-palette-primary_2;
-	}
-	.form-submit .submit:hover,
-	.form-submit .submit:focus {
-		background: $palette-primary_2;
-		color: $text-contrast-palette-primary_2;
-	}
-
-	/* xs */
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		color: $text-contrast-palette-primary_3;
 	}
 	.navbar-default .navbar-nav .dropdown-menu {
 		background: $palette-primary_3;
 	}
-
 	.navbar-default .navbar-nav > .dropdown.active.open > a,
 	.navbar-default .navbar-nav > li.dropdown.active.open > a:hover,
 	.navbar-default .navbar-nav > li.dropdown.active.open > a:focus,
@@ -139,9 +90,8 @@
 		color: $text-contrast-palette-primary_2;
 	}
 
-	/* sm */
-	@media (min-width: 768px) {
-		/* Dropdown Child Default */
+	/* Small devices (tablets, 768px and up) */
+	@media only screen and (min-width: 768px) {
 		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 			color: $text-contrast-palette-primary_3;
 		}
@@ -154,11 +104,6 @@
 	.entry-title a {
 		background-color: $palette-primary_3;
 	}
-	.mod-divider {
-		i, a {
-			background: $palette-primary_3;
-		}
-	}
 	.site-title a,
 	#secondary-menu a,
 	#tertiary-menu a,
@@ -169,7 +114,6 @@
 	.navbar-default .dropdown-menu > li > a {
 		color: $text-contrast-palette-primary_3;
 	}
-	/* Nav Toggle */
 	.navbar-default .navbar-toggle {
 		border-color: $palette-primary_3;
 	}
@@ -179,21 +123,5 @@
 	}
 	.widget-area {
 		border: 1px solid $text-contrast-palette-primary_3;
-	}
-
-	/*-----------------------------------------------
-	# Et Cetera
-	-----------------------------------------------*/
-	.woocommerce #respond input#submit,
-	.woocommerce a.button,
-	.woocommerce button.button,
-	.woocommerce input.button,
-	.woocommerce p.buttons a.button {
-		background-color: #a46497;
-		color: #fff;
-	}
-	.woocommerce p.buttons a.button:hover {
-		background-color: #dad8da;
-		color: #515151;
 	}
 }
