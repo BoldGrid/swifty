@@ -19,8 +19,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'1' => array( '[menu]secondary' ),
 		'5' => array( '[widget]boldgrid-widget-1' ),
 		'6' => array( '[action]boldgrid_site_identity' ),
+		'7' => array( '[action]boldgrid_primary_navigation' ),
 		'8' => array( '[widget]boldgrid-widget-2' ),
-		'11' => array( '[action]boldgrid_primary_navigation' ),
 		'13' => array( '[menu]tertiary' ),
 	);
 
@@ -48,42 +48,57 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		array(
 			'default' => true,
 			'format' => 'palette-primary',
+			'neutral-color' => '#ffffff',
 			'colors' => array(
-				'#333333',
 				'#ca5215',
-				'#ffffff',
-			),
-		),
-		array(
-			'format' => 'palette-primary',
-			'colors' => array(
 				'#333333',
-				'#62717e',
+				'#ffffff',
+				'#333333',
 				'#ffffff',
 			),
 		),
 		array(
 			'format' => 'palette-primary',
+			'neutral-color' => '#ffffff',
 			'colors' => array(
-				'#b54848',
+				'#62717e',
+				'#333333',
+				'#ffffff',
+				'#333333',
+				'#ffffff',
+			),
+		),
+		array(
+			'format' => 'palette-primary',
+			'neutral-color' => '#141414',
+			'colors' => array(
+				'#6e2716',
+				'#ffffff',
+				'#141414',
+				'#ffffff',
+				'#141414',
+			),
+		),
+		array(
+			'format' => 'palette-primary',
+			'neutral-color' => '#2d353d',
+			'colors' => array(
 				'#5b94ad',
+				'#b54848',
+				'#2d353d',
+				'#b54848',
 				'#2d353d',
 			),
 		),
 		array(
 			'format' => 'palette-primary',
+			'neutral-color' => '#494949',
 			'colors' => array(
-				'#42282c',
-				'#78343f',
-				'#84abaa',
-			),
-		),
-		array(
-			'format' => 'palette-primary',
-			'colors' => array(
+				'#8c3f64',
 				'#ffffff',
-				'#a1c1be',
-				'#59554e',
+				'#494949',
+				'#ffffff',
+				'#494949',
 			),
 		),
 	);

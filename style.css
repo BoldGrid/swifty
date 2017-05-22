@@ -19,9 +19,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Spacing
 -----------------------------------------------*/ 
-.site-branding {
-	padding-bottom: 10px;
-}
 .entry-content {
 	margin: 0;
 }
@@ -62,9 +59,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	.navbar-default .navbar-nav,
 	.navbar-default .navbar-nav .open .dropdown-menu {
 		text-align: left;
-	}
-	.menu-social {
-		text-align: right;
 	}
 }
 
@@ -182,43 +176,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	content: "";
 }
 
-/*-----------------------------------------------
-## Social Menus
------------------------------------------------*/
-.menu-social {
-	padding: 0;
-}
-.menu-social ul {
-	padding-left: 0;
-}
-.menu-social li {
-	display: inline;
-	list-style: none;
-	padding-right: 10px;
-}
-#menu-social ul {
-	padding-left: 0px;
-}
-#menu-social ul li {
-	position: relative;
-	display:  inline-block;
-}
-#menu-social li a {
-	display: inline-block;
-	-webkit-font-smoothing: antialiased;
-}
-.navbar-nav .menu-social {
-	margin-top: 0;
-}
-
-/* Small devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-	.menu-social {
-		margin-top: 15px;
-		padding-right: 15px;
-	}
-}
-
 /*------------------------------------------------------------------------
 # Pages
 ------------------------------------------------------------------------*/
@@ -262,15 +219,12 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*------------------------------------------------------------------------
 # Footer
 ------------------------------------------------------------------------*/
-.site-info {
-	margin-bottom: -10px;
+.site-footer {
+	padding: 0 0 15px;
 }
 .footer-center-items {
 	padding-left: 0;
 }
 .footer-center-items li a {
 	padding: 5px;
-}
-.attribution {
-	padding-bottom: 30px;
 }
