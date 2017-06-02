@@ -73,6 +73,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
+.site-description {
+	margin: 0 0 10px 5px;
+}
 .post-title-hidden .entry-meta {
 	margin-top: 50px;
 }
@@ -108,16 +111,11 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Main Menu
 -----------------------------------------------*/
 .navbar {
-	background-color: none;
 	border: none;
-	min-height: 0;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
 }
 .navbar-default {
 	background: none;
-	margin-bottom: 0;
+	margin: 15px 0 0;
 }
 .navbar-default .navbar-nav {
 	margin-left: -15px;
