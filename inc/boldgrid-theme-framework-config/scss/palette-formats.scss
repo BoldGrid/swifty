@@ -1,4 +1,10 @@
 /*------------------------------------------------------------------------
+# Variables
+------------------------------------------------------------------------*/
+$lighten1: lighten($palette-primary_1, 5%);
+$lighten2: lighten($palette-primary_2, 5%);
+
+/*------------------------------------------------------------------------
 # Palettes
 ------------------------------------------------------------------------*/
 .palette-primary {
@@ -14,32 +20,55 @@
 	h4,
 	h5,
 	h6,
-	caption,
-	#menu-social li a {
+	caption {
 		color: $palette-primary_2;
 	}
 	.site-title a {
 		color: $text-contrast-palette-primary-neutral-color;
 	}
-	.entry-title::before {
-		border-top: 1px solid $palette-primary_2;
+
+	/*-----------------------------------------------
+	## Links
+	-----------------------------------------------*/
+	a,
+	.link-primary {
+		color: $palette-primary_1;
+	}
+	.link-secondary {
+		color: $palette-primary_2;
 	}
 
 	/*-----------------------------------------------
 	## Buttons
 	-----------------------------------------------*/
-	a.btn:hover,
-	a.btn:focus,
-	a.button-primary:hover,
-	a.button-primary:focus {
-		color: $text-contrast-palette-primary_1; 
+	.button-primary {
+		background-color: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.button-secondary {
+		background-color: $palette-primary_2;
+		color: $text-contrast-palette-primary_2;
+	}
+	.button-primary:hover,
+	.button-primary:focus {
+		background-color: $lighten1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.button-secondary:hover,
+	.button-secondary:focus {
+		background-color: $lighten2;
+		color: $text-contrast-palette-primary_2;
 	}
 
 	/*-----------------------------------------------
 	## Elements
 	-----------------------------------------------*/
 	hr {
-		background: $palette-primary_2;
+		border-top: 1px solid $palette-primary_2;
+	}
+	blockquote,
+	.mod-blockquote {
+		border-left: 5px solid $palette-primary_4;
 	}
 
 	/*-----------------------------------------------
@@ -60,15 +89,44 @@
 		.current-menu-item a,
 		a:hover,
 		a:focus {
-			color: $palette-primary_1;
+			color: $palette-primary_3;
 		}
 	}
 
 	/*-----------------------------------------------
-	## Blog
+	## Comments
 	-----------------------------------------------*/
-	.widget-area {
-		border: 1px solid $text-contrast-palette-primary_3;
+	.panel,
+	.panel-body,
+	.panel-footer,
+	.panel-default > .panel-heading {
+		background-color: $text-contrast-palette-primary-neutral-color;
+		color: $palette-primary-neutral-color;
+	}
+	.panel-default > .panel-heading .media-heading {
+		color: $palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## Widgets
+	-----------------------------------------------*/
+	.well {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.widget.well a {
+		color: $text-contrast-palette-primary_5;
+	}
+	.widget.well a:hover,
+	.widget.well a:focus {
+		background: none;
+	}
+	.widget_calendar .table-striped > tbody > tr:nth-of-type(2n+1) {
+    	background-color: $text-contrast-palette-primary_5;
+    	color: $palette-primary_5;
+	}
+	.widget_calendar #today {
+		color: $palette-primary_1;
 	}
 
 	/*-----------------------------------------------
@@ -78,8 +136,9 @@
 	/*-----------------------------------------------
 	## Footer
 	-----------------------------------------------*/
-	.site-footer a,
-	.post-edit-link {
-		color: $palette-primary_1;
-	}
+
+}
+.disabled-footer .site-footer {
+	background: $palette-primary-neutral-color;
+	color: $text-contrast-palette-primary-neutral-color;
 }

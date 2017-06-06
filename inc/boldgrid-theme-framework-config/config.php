@@ -52,7 +52,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			'colors' => array(
 				'#ca5215',
 				'#333333',
-				'#ffffff',
+				'#ca5215',
 				'#333333',
 				'#ffffff',
 			),
@@ -63,7 +63,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			'colors' => array(
 				'#62717e',
 				'#333333',
-				'#ffffff',
+				'#62717e',
 				'#333333',
 				'#ffffff',
 			),
@@ -74,7 +74,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			'colors' => array(
 				'#6e2716',
 				'#ffffff',
-				'#141414',
+				'#6e2716',
 				'#ffffff',
 				'#141414',
 			),
@@ -85,20 +85,20 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			'colors' => array(
 				'#5b94ad',
 				'#b54848',
-				'#2d353d',
+				'#5b94ad',
 				'#b54848',
 				'#2d353d',
 			),
 		),
 		array(
 			'format' => 'palette-primary',
-			'neutral-color' => '#494949',
+			'neutral-color' => '#353535',
 			'colors' => array(
-				'#8c3f64',
+				'#99456e',
 				'#ffffff',
-				'#494949',
+				'#99456e',
 				'#ffffff',
-				'#494949',
+				'#353535',
 			),
 		),
 	);

@@ -35,9 +35,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .site-footer a:focus {
 	text-decoration: none;
 }
-#menu-social li a {
-	text-align: right;
-}
 
 /* Extra small devices (phones, less than 768px) */
 .entry-title,
@@ -79,29 +76,17 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .post-title-hidden .entry-meta {
 	margin-top: 50px;
 }
-.entry-title {
-	display: block;
-	margin: 60px 0;
-	position: relative;
-	z-index: 1;
-}
-.entry-title::before {
-	bottom: 0;
-	content:"";
-	left: 0;
-	margin: 0 auto;
-	position: absolute;
-	right: 0;
-	top: 50%;
-	z-index: -1;
-}
 .entry-title a {
 	padding: 0 15px;
 }
 
-/*------------------------------------------------------------------------
-# Header
-------------------------------------------------------------------------*/
+/*-----------------------------------------------
+## Elements
+-----------------------------------------------*/
+blockquote,
+.mod-blockquote {
+	padding-left: 15px;
+}
 
 /*------------------------------------------------------------------------
 # Navigation
@@ -177,13 +162,18 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*------------------------------------------------------------------------
 # Pages
 ------------------------------------------------------------------------*/
-/* 404 Page */
+
+/*-----------------------------------------------
+## 404
+-----------------------------------------------*/
 .error404 .list-group-item {
 	background: transparent;
 	border: none;
 }
 
-/* Search Page */
+/*-----------------------------------------------
+## Search
+-----------------------------------------------*/
 .search .jumbotron {
 	background: none;
 }
@@ -191,27 +181,26 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
-.widget-area {
-	margin-top: 25px;
-	padding: 25px;
-	list-style:none;
-}
 
-/* Comments */
-.comment-form-comment label {
-	float: left;
-	padding-right: 15px;
-}
-.panel-footer {
-	padding: 20px 15px;
+/*-----------------------------------------------
+## Comments
+-----------------------------------------------*/
+
+/*------------------------------------------------------------------------
+# Widgets
+------------------------------------------------------------------------*/
+.widget,
+#header-widget-area,
+#footer-widget-area {
+	margin: 15px 0;
 }
 
 /*------------------------------------------------------------------------
-# Plugins
+# WooCommerce
 ------------------------------------------------------------------------*/
 
 /*-----------------------------------------------
-## WooCommerce
+## 
 -----------------------------------------------*/
 
 /*------------------------------------------------------------------------
@@ -219,10 +208,4 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ------------------------------------------------------------------------*/
 .site-footer {
 	padding: 0 0 15px;
-}
-.footer-center-items {
-	padding-left: 0;
-}
-.footer-center-items li a {
-	padding: 5px;
 }
