@@ -100,8 +100,8 @@ $lighten2: lighten($palette-primary_2, 5%);
 	.panel-body,
 	.panel-footer,
 	.panel-default > .panel-heading {
-		background-color: $text-contrast-palette-primary-neutral-color;
-		color: $palette-primary-neutral-color;
+		background-color: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
 	}
 	.panel-default > .panel-heading .media-heading {
 		color: $palette-primary_1;
@@ -132,13 +132,23 @@ $lighten2: lighten($palette-primary_2, 5%);
 	/*-----------------------------------------------
 	## WooCommerce
 	-----------------------------------------------*/
-	
+	#reviews #comments ol.commentlist li .meta {
+		color: $text-contrast-palette-primary-neutral-color;
+	}
+	#reviews #comments ol.commentlist li .comment-text {
+		border: 1px solid $text-contrast-palette-primary-neutral-color;
+	}
+	mark,
+	.mark {
+ 		background: $palette-primary_1;
+ 		color: $text-contrast-palette-primary_1;
+ 	}
+
 	/*-----------------------------------------------
 	## Footer
 	-----------------------------------------------*/
-
-}
-.disabled-footer .site-footer {
-	background: $palette-primary-neutral-color;
-	color: $text-contrast-palette-primary-neutral-color;
+	&.disabled-footer .site-footer {
+		background: $palette-primary-neutral-color;
+		color: $text-contrast-palette-primary-neutral-color;
+	}
 }
