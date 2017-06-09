@@ -92,6 +92,45 @@ $lighten2: lighten($palette-primary_2, 5%);
 			color: $palette-primary_3;
 		}
 	}
+	#primary-navbar .current-menu-item a {
+		background: none;
+	}
+	#primary-navbar .current-menu-parent > a {
+		background: none;
+		color: $palette-primary_3;
+	}
+	.dropdown-menu,
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > .open > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
+	.navbar-default .navbar-toggle {
+		background: $palette-primary-neutral-color;
+		border-color: $palette-primary_3;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: $text-contrast-palette-primary-neutral-color;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+		background: $palette-primary_3;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+		background-color: $text-contrast-palette-primary_3;
+	}
+	.has-submenu .sub-arrow:hover,
+	.has-submenu .sub-arrow:focus {
+		color: $text-contrast-palette-primary_3;
+	}
 
 	/*-----------------------------------------------
 	## Comments
