@@ -68,6 +68,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
+.page-template-default .entry-title {
+	margin: -25px 0 25px;
+}
 .site-description {
 	margin: 0 0 10px 5px;
 }
