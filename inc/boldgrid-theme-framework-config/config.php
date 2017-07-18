@@ -11,8 +11,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
 	
-	// Disable background image.
+	// Disable background image and call to action.
 	$boldgrid_framework_configs['customizer-options']['background']['defaults']['background_image'] = false;
+	$boldgrid_framework_configs['template']['call-to-action'] = 'disabled';
 
 	// Assign menus, widgets, and actions to locations in generic header template.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
@@ -26,8 +27,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Assign menus, widgets, and actions to locations in generic footer template.
 	$boldgrid_framework_configs['template']['locations']['footer'] = array(
-		'1' => array( '[menu]social' ),
-		'5' => array( '[widget]boldgrid-widget-3' ),
+		'1' => array( '[widget]boldgrid-widget-3' ),
+		'3' => array( '[menu]social' ),
+		'5' => array( '[action]boldgrid_display_contact_block' ),
 		'8' => array( '[action]boldgrid_display_attribution_links' ),
 		'11' => array( '[menu]footer_center' ),
 	);
