@@ -1,0 +1,61 @@
+/*------------------------------------------------------------------------
+# Right To Left (RTL) Styles
+------------------------------------------------------------------------*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/*------------------------------------------------------------------------
+# Base Styles
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Typography
+-----------------------------------------------*/
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.navbar-default .navbar-nav,
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		text-align: right;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.site-title,
+	.site-description {
+		text-align: right;
+	}
+}
+
+/*-----------------------------------------------
+## Elements
+-----------------------------------------------*/
+blockquote,
+.mod-blockquote {
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+/*------------------------------------------------------------------------
+# Navigation
+------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Main Menu
+-----------------------------------------------*/
+.navbar-default .navbar-nav {
+	margin-right: -15px;
+	margin-left: 0;
+}
+.navbar-default .navbar-nav > li:first-child > a {
+	margin-right: 0;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.navbar-default {
+		float: left;
+	}
+}
