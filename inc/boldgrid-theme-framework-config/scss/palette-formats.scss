@@ -1,10 +1,4 @@
 /*------------------------------------------------------------------------
-# Variables
-------------------------------------------------------------------------*/
-$lighten1: lighten($palette-primary_1, 5%);
-$lighten2: lighten($palette-primary_2, 5%);
-
-/*------------------------------------------------------------------------
 # Palettes
 ------------------------------------------------------------------------*/
 .palette-primary {
@@ -36,28 +30,6 @@ $lighten2: lighten($palette-primary_2, 5%);
 	}
 	.link-secondary {
 		color: $palette-primary_2;
-	}
-
-	/*-----------------------------------------------
-	## Buttons
-	-----------------------------------------------*/
-	.button-primary {
-		background-color: $palette-primary_1;
-		color: $text-contrast-palette-primary_1;
-	}
-	.button-secondary {
-		background-color: $palette-primary_2;
-		color: $text-contrast-palette-primary_2;
-	}
-	.button-primary:hover,
-	.button-primary:focus {
-		background-color: $lighten1;
-		color: $text-contrast-palette-primary_1;
-	}
-	.button-secondary:hover,
-	.button-secondary:focus {
-		background-color: $lighten2;
-		color: $text-contrast-palette-primary_2;
 	}
 
 	/*-----------------------------------------------
