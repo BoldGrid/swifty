@@ -102,10 +102,10 @@
  */
 .btn, .palette-primary .button-primary, .palette-primary .woocommerce .button, .palette-primary .button-secondary, .palette-primary .woocommerce .alt.button {
   color: #fff;
-  background-color: #5b94ad;
-  border-color: #5b94ad;
+  background-color: #99456e;
+  border-color: #99456e;
   font-weight: inherit;
-  font-size: inherit;
+  font-size: 1em;
   font-family: inherit;
   text-decoration: none;
   text-align: center;
@@ -131,15 +131,15 @@
   .btn:visited, .palette-primary .button-primary:visited, .palette-primary .woocommerce .button:visited, .palette-primary .button-secondary:visited, .palette-primary .woocommerce .alt.button:visited {
     color: #fff; }
   .btn:hover, .palette-primary .button-primary:hover, .palette-primary .woocommerce .button:hover, .palette-primary .button-secondary:hover, .palette-primary .woocommerce .alt.button:hover, .btn:focus, .palette-primary .button-primary:focus, .palette-primary .woocommerce .button:focus, .palette-primary .button-secondary:focus, .palette-primary .woocommerce .alt.button:focus {
-    background-color: #659bb2;
+    background-color: #a44a76;
     text-decoration: none;
     outline: none; }
   .btn:active, .palette-primary .button-primary:active, .palette-primary .woocommerce .button:active, .palette-primary .button-secondary:active, .palette-primary .woocommerce .alt.button:active, .btn.active, .palette-primary .button-primary.active, .palette-primary .woocommerce .button.active, .palette-primary .button-secondary.active, .palette-primary .woocommerce .alt.button.active, .btn.is-active, .palette-primary .button-primary.is-active, .palette-primary .woocommerce .button.is-active, .palette-primary .button-secondary.is-active, .palette-primary .woocommerce .alt.button.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .3);
     text-decoration: none;
-    background-color: #678fa1;
-    border-color: #447387;
-    color: #47788e;
+    background-color: #8e506e;
+    border-color: #6f3250;
+    color: #763555;
     transition-duration: 0s;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2); }
   .btn.disabled, .palette-primary .button-primary.disabled, .palette-primary .woocommerce .button.disabled, .palette-primary .button-secondary.disabled, .palette-primary .woocommerce .alt.button.disabled, .btn.is-disabled, .palette-primary .button-primary.is-disabled, .palette-primary .woocommerce .button.is-disabled, .palette-primary .button-secondary.is-disabled, .palette-primary .woocommerce .alt.button.is-disabled, .btn:disabled, .palette-primary .button-primary:disabled, .palette-primary .woocommerce .button:disabled, .palette-primary .button-secondary:disabled, .palette-primary .woocommerce .alt.button:disabled {
@@ -183,95 +183,95 @@
  * Create colors for buttons
  * (.button-primary, .button-secondary, etc.)
  */
-.btn-color-1, .btn-color-1-flat {
-  background-color: #5b94ad;
-  border-color: #5b94ad;
+.btn-color-1, .palette-primary .button-primary, .palette-primary .woocommerce .button, .btn-color-1-flat {
+  background-color: #99456e;
+  border-color: #99456e;
   color: #fff; }
-  .btn-color-1:visited, .btn-color-1-flat:visited {
+  .btn-color-1:visited, .palette-primary .button-primary:visited, .palette-primary .woocommerce .button:visited, .btn-color-1-flat:visited {
     color: #fff; }
-  .btn-color-1:hover, .btn-color-1-flat:hover, .btn-color-1:focus, .btn-color-1-flat:focus {
-    background-color: #7daabe;
-    border-color: #7daabe;
+  .btn-color-1:hover, .palette-primary .button-primary:hover, .palette-primary .woocommerce .button:hover, .btn-color-1-flat:hover, .btn-color-1:focus, .palette-primary .button-primary:focus, .palette-primary .woocommerce .button:focus, .btn-color-1-flat:focus {
+    background-color: #b55c87;
+    border-color: #b55c87;
     color: #fff; }
-  .btn-color-1:active, .btn-color-1-flat:active, .btn-color-1.active, .btn-color-1-flat.active, .btn-color-1.is-active, .btn-color-1-flat.is-active {
-    background-color: #678fa1;
-    border-color: #678fa1;
-    color: #47788e; }
+  .btn-color-1:active, .palette-primary .button-primary:active, .palette-primary .woocommerce .button:active, .btn-color-1-flat:active, .btn-color-1.active, .palette-primary .button-primary.active, .palette-primary .woocommerce .button.active, .btn-color-1-flat.active, .btn-color-1.is-active, .palette-primary .button-primary.is-active, .palette-primary .woocommerce .button.is-active, .btn-color-1-flat.is-active {
+    background-color: #8e506e;
+    border-color: #8e506e;
+    color: #763555; }
 
-.btn-color-2, .btn-color-2-flat {
-  background-color: #b54848;
-  border-color: #b54848;
-  color: #fff; }
-  .btn-color-2:visited, .btn-color-2-flat:visited {
-    color: #fff; }
-  .btn-color-2:hover, .btn-color-2-flat:hover, .btn-color-2:focus, .btn-color-2-flat:focus {
-    background-color: #c46c6c;
-    border-color: #c46c6c;
-    color: #fff; }
-  .btn-color-2:active, .btn-color-2-flat:active, .btn-color-2.active, .btn-color-2-flat.active, .btn-color-2.is-active, .btn-color-2-flat.is-active {
-    background-color: #a85555;
-    border-color: #a85555;
-    color: #913939; }
+.btn-color-2, .palette-primary .button-secondary, .palette-primary .woocommerce .alt.button, .btn-color-2-flat {
+  background-color: #fff;
+  border-color: #fff;
+  color: #333; }
+  .btn-color-2:visited, .palette-primary .button-secondary:visited, .palette-primary .woocommerce .alt.button:visited, .btn-color-2-flat:visited {
+    color: #333; }
+  .btn-color-2:hover, .palette-primary .button-secondary:hover, .palette-primary .woocommerce .alt.button:hover, .btn-color-2-flat:hover, .btn-color-2:focus, .palette-primary .button-secondary:focus, .palette-primary .woocommerce .alt.button:focus, .btn-color-2-flat:focus {
+    background-color: #fff;
+    border-color: #fff;
+    color: #333; }
+  .btn-color-2:active, .palette-primary .button-secondary:active, .palette-primary .woocommerce .alt.button:active, .btn-color-2-flat:active, .btn-color-2.active, .palette-primary .button-secondary.active, .palette-primary .woocommerce .alt.button.active, .btn-color-2-flat.active, .btn-color-2.is-active, .palette-primary .button-secondary.is-active, .palette-primary .woocommerce .alt.button.is-active, .btn-color-2-flat.is-active {
+    background-color: #fff;
+    border-color: #fff;
+    color: #e6e6e6; }
 
 .btn-color-3, .btn-color-3-flat {
-  background-color: #5b94ad;
-  border-color: #5b94ad;
+  background-color: #99456e;
+  border-color: #99456e;
   color: #fff; }
   .btn-color-3:visited, .btn-color-3-flat:visited {
     color: #fff; }
   .btn-color-3:hover, .btn-color-3-flat:hover, .btn-color-3:focus, .btn-color-3-flat:focus {
-    background-color: #7daabe;
-    border-color: #7daabe;
+    background-color: #b55c87;
+    border-color: #b55c87;
     color: #fff; }
   .btn-color-3:active, .btn-color-3-flat:active, .btn-color-3.active, .btn-color-3-flat.active, .btn-color-3.is-active, .btn-color-3-flat.is-active {
-    background-color: #678fa1;
-    border-color: #678fa1;
-    color: #47788e; }
+    background-color: #8e506e;
+    border-color: #8e506e;
+    color: #763555; }
 
 .btn-color-4, .btn-color-4-flat {
-  background-color: #b54848;
-  border-color: #b54848;
-  color: #fff; }
+  background-color: #fff;
+  border-color: #fff;
+  color: #333; }
   .btn-color-4:visited, .btn-color-4-flat:visited {
-    color: #fff; }
+    color: #333; }
   .btn-color-4:hover, .btn-color-4-flat:hover, .btn-color-4:focus, .btn-color-4-flat:focus {
-    background-color: #c46c6c;
-    border-color: #c46c6c;
-    color: #fff; }
+    background-color: #fff;
+    border-color: #fff;
+    color: #333; }
   .btn-color-4:active, .btn-color-4-flat:active, .btn-color-4.active, .btn-color-4-flat.active, .btn-color-4.is-active, .btn-color-4-flat.is-active {
-    background-color: #a85555;
-    border-color: #a85555;
-    color: #913939; }
+    background-color: #fff;
+    border-color: #fff;
+    color: #e6e6e6; }
 
 .btn-color-5, .btn-color-5-flat {
-  background-color: #2d353d;
-  border-color: #2d353d;
+  background-color: #353535;
+  border-color: #353535;
   color: #fff; }
   .btn-color-5:visited, .btn-color-5-flat:visited {
     color: #fff; }
   .btn-color-5:hover, .btn-color-5-flat:hover, .btn-color-5:focus, .btn-color-5-flat:focus {
-    background-color: #434f5a;
-    border-color: #434f5a;
+    background-color: #4f4f4f;
+    border-color: #4f4f4f;
     color: #fff; }
   .btn-color-5:active, .btn-color-5-flat:active, .btn-color-5.active, .btn-color-5-flat.active, .btn-color-5.is-active, .btn-color-5-flat.is-active {
-    background-color: #323538;
-    border-color: #323538;
-    color: #171c20; }
+    background-color: #353535;
+    border-color: #353535;
+    color: #1c1c1c; }
 
 .btn-neutral-color, .btn-neutral-color-flat {
-  background-color: #2d353d;
-  border-color: #2d353d;
+  background-color: #353535;
+  border-color: #353535;
   color: #fff; }
   .btn-neutral-color:visited, .btn-neutral-color-flat:visited {
     color: #fff; }
   .btn-neutral-color:hover, .btn-neutral-color-flat:hover, .btn-neutral-color:focus, .btn-neutral-color-flat:focus {
-    background-color: #434f5a;
-    border-color: #434f5a;
+    background-color: #4f4f4f;
+    border-color: #4f4f4f;
     color: #fff; }
   .btn-neutral-color:active, .btn-neutral-color-flat:active, .btn-neutral-color.active, .btn-neutral-color-flat.active, .btn-neutral-color.is-active, .btn-neutral-color-flat.is-active {
-    background-color: #323538;
-    border-color: #323538;
-    color: #171c20; }
+    background-color: #353535;
+    border-color: #353535;
+    color: #1c1c1c; }
 /*
  * Base Layout Styles
  *
@@ -340,7 +340,7 @@
   line-height: 36px; }
 
 .btn-border:hover, .btn-border-thin:hover, .btn-border-thick:hover {
-  background-color: rgba(125, 170, 190, .9); }
+  background-color: rgba(181, 92, 135, .9); }
 
 .btn-border:active, .btn-border-thin:active, .btn-border-thick:active, .btn-border.active, .btn-border-thin.active, .btn-border-thick.active, .btn-border.is-active, .btn-border-thin.is-active, .btn-border-thick.is-active {
   box-shadow: none;
@@ -370,58 +370,58 @@
    * The line-height must be adjusted to compinsate for
    * the width of the border.
    */ }
-  .btn-border.btn-color-1, .btn-border-thin.btn-color-1, .btn-border-thick.btn-color-1 {
-    color: #5b94ad; }
-    .btn-border.btn-color-1:hover, .btn-border-thin.btn-color-1:hover, .btn-border-thick.btn-color-1:hover, .btn-border.btn-color-1:focus, .btn-border-thin.btn-color-1:focus, .btn-border-thick.btn-color-1:focus {
-      background-color: rgba(125, 170, 190, .9);
+  .btn-border.btn-color-1, .btn-border-thin.btn-color-1, .palette-primary .button-primary.btn-border-thin, .palette-primary .woocommerce .button.btn-border-thin, .btn-border-thick.btn-color-1, .palette-primary .button-primary.btn-border-thick, .palette-primary .woocommerce .button.btn-border-thick, .palette-primary .button-primary.btn-border, .palette-primary .btn-border-thin.button-primary, .palette-primary .btn-border-thick.button-primary, .palette-primary .woocommerce .button.btn-border, .palette-primary .woocommerce .btn-border-thin.button, .palette-primary .woocommerce .btn-border-thick.button {
+    color: #99456e; }
+    .btn-border.btn-color-1:hover, .btn-border-thin.btn-color-1:hover, .palette-primary .button-primary.btn-border-thin:hover, .palette-primary .woocommerce .button.btn-border-thin:hover, .btn-border-thick.btn-color-1:hover, .palette-primary .button-primary.btn-border-thick:hover, .palette-primary .woocommerce .button.btn-border-thick:hover, .palette-primary .button-primary.btn-border:hover, .palette-primary .btn-border-thin.button-primary:hover, .palette-primary .btn-border-thick.button-primary:hover, .palette-primary .woocommerce .button.btn-border:hover, .palette-primary .woocommerce .btn-border-thin.button:hover, .palette-primary .woocommerce .btn-border-thick.button:hover, .btn-border.btn-color-1:focus, .btn-border-thin.btn-color-1:focus, .palette-primary .button-primary.btn-border-thin:focus, .palette-primary .woocommerce .button.btn-border-thin:focus, .btn-border-thick.btn-color-1:focus, .palette-primary .button-primary.btn-border-thick:focus, .palette-primary .woocommerce .button.btn-border-thick:focus, .palette-primary .button-primary.btn-border:focus, .palette-primary .btn-border-thin.button-primary:focus, .palette-primary .btn-border-thick.button-primary:focus, .palette-primary .woocommerce .button.btn-border:focus, .palette-primary .woocommerce .btn-border-thin.button:focus, .palette-primary .woocommerce .btn-border-thick.button:focus {
+      background-color: rgba(181, 92, 135, .9);
       color: rgba(255, 255, 255, .9); }
-    .btn-border.btn-color-1:active, .btn-border-thin.btn-color-1:active, .btn-border-thick.btn-color-1:active, .btn-border.btn-color-1.active, .btn-border-thin.btn-color-1.active, .btn-border-thick.btn-color-1.active, .btn-border.btn-color-1.is-active, .btn-border-thin.btn-color-1.is-active, .btn-border-thick.btn-color-1.is-active {
-      background-color: rgba(103, 143, 161, .7);
+    .btn-border.btn-color-1:active, .btn-border-thin.btn-color-1:active, .palette-primary .button-primary.btn-border-thin:active, .palette-primary .woocommerce .button.btn-border-thin:active, .btn-border-thick.btn-color-1:active, .palette-primary .button-primary.btn-border-thick:active, .palette-primary .woocommerce .button.btn-border-thick:active, .palette-primary .button-primary.btn-border:active, .palette-primary .btn-border-thin.button-primary:active, .palette-primary .btn-border-thick.button-primary:active, .palette-primary .woocommerce .button.btn-border:active, .palette-primary .woocommerce .btn-border-thin.button:active, .palette-primary .woocommerce .btn-border-thick.button:active, .btn-border.btn-color-1.active, .btn-border-thin.btn-color-1.active, .palette-primary .button-primary.btn-border-thin.active, .palette-primary .woocommerce .button.btn-border-thin.active, .btn-border-thick.btn-color-1.active, .palette-primary .button-primary.btn-border-thick.active, .palette-primary .woocommerce .button.btn-border-thick.active, .palette-primary .button-primary.btn-border.active, .palette-primary .btn-border-thin.button-primary.active, .palette-primary .btn-border-thick.button-primary.active, .palette-primary .woocommerce .button.btn-border.active, .palette-primary .woocommerce .btn-border-thin.button.active, .palette-primary .woocommerce .btn-border-thick.button.active, .btn-border.btn-color-1.is-active, .btn-border-thin.btn-color-1.is-active, .palette-primary .button-primary.btn-border-thin.is-active, .palette-primary .woocommerce .button.btn-border-thin.is-active, .btn-border-thick.btn-color-1.is-active, .palette-primary .button-primary.btn-border-thick.is-active, .palette-primary .woocommerce .button.btn-border-thick.is-active, .palette-primary .button-primary.btn-border.is-active, .palette-primary .btn-border-thin.button-primary.is-active, .palette-primary .btn-border-thick.button-primary.is-active, .palette-primary .woocommerce .button.btn-border.is-active, .palette-primary .woocommerce .btn-border-thin.button.is-active, .palette-primary .woocommerce .btn-border-thick.button.is-active {
+      background-color: rgba(142, 80, 110, .7);
       color: rgba(255, 255, 255, .5);
       opacity: 0.3; }
-  .btn-border.btn-color-2, .btn-border-thin.btn-color-2, .btn-border-thick.btn-color-2 {
-    color: #b54848; }
-    .btn-border.btn-color-2:hover, .btn-border-thin.btn-color-2:hover, .btn-border-thick.btn-color-2:hover, .btn-border.btn-color-2:focus, .btn-border-thin.btn-color-2:focus, .btn-border-thick.btn-color-2:focus {
-      background-color: rgba(196, 108, 108, .9);
-      color: rgba(255, 255, 255, .9); }
-    .btn-border.btn-color-2:active, .btn-border-thin.btn-color-2:active, .btn-border-thick.btn-color-2:active, .btn-border.btn-color-2.active, .btn-border-thin.btn-color-2.active, .btn-border-thick.btn-color-2.active, .btn-border.btn-color-2.is-active, .btn-border-thin.btn-color-2.is-active, .btn-border-thick.btn-color-2.is-active {
-      background-color: rgba(168, 85, 85, .7);
-      color: rgba(255, 255, 255, .5);
+  .btn-border.btn-color-2, .btn-border-thin.btn-color-2, .palette-primary .button-secondary.btn-border-thin, .palette-primary .woocommerce .alt.button.btn-border-thin, .btn-border-thick.btn-color-2, .palette-primary .button-secondary.btn-border-thick, .palette-primary .woocommerce .alt.button.btn-border-thick, .palette-primary .button-secondary.btn-border, .palette-primary .btn-border-thin.button-secondary, .palette-primary .btn-border-thick.button-secondary, .palette-primary .woocommerce .alt.button.btn-border, .palette-primary .woocommerce .btn-border-thin.alt.button, .palette-primary .woocommerce .btn-border-thick.alt.button {
+    color: #fff; }
+    .btn-border.btn-color-2:hover, .btn-border-thin.btn-color-2:hover, .palette-primary .button-secondary.btn-border-thin:hover, .palette-primary .woocommerce .alt.button.btn-border-thin:hover, .btn-border-thick.btn-color-2:hover, .palette-primary .button-secondary.btn-border-thick:hover, .palette-primary .woocommerce .alt.button.btn-border-thick:hover, .palette-primary .button-secondary.btn-border:hover, .palette-primary .btn-border-thin.button-secondary:hover, .palette-primary .btn-border-thick.button-secondary:hover, .palette-primary .woocommerce .alt.button.btn-border:hover, .palette-primary .woocommerce .btn-border-thin.alt.button:hover, .palette-primary .woocommerce .btn-border-thick.alt.button:hover, .btn-border.btn-color-2:focus, .btn-border-thin.btn-color-2:focus, .palette-primary .button-secondary.btn-border-thin:focus, .palette-primary .woocommerce .alt.button.btn-border-thin:focus, .btn-border-thick.btn-color-2:focus, .palette-primary .button-secondary.btn-border-thick:focus, .palette-primary .woocommerce .alt.button.btn-border-thick:focus, .palette-primary .button-secondary.btn-border:focus, .palette-primary .btn-border-thin.button-secondary:focus, .palette-primary .btn-border-thick.button-secondary:focus, .palette-primary .woocommerce .alt.button.btn-border:focus, .palette-primary .woocommerce .btn-border-thin.alt.button:focus, .palette-primary .woocommerce .btn-border-thick.alt.button:focus {
+      background-color: rgba(255, 255, 255, .9);
+      color: rgba(51, 51, 51, .9); }
+    .btn-border.btn-color-2:active, .btn-border-thin.btn-color-2:active, .palette-primary .button-secondary.btn-border-thin:active, .palette-primary .woocommerce .alt.button.btn-border-thin:active, .btn-border-thick.btn-color-2:active, .palette-primary .button-secondary.btn-border-thick:active, .palette-primary .woocommerce .alt.button.btn-border-thick:active, .palette-primary .button-secondary.btn-border:active, .palette-primary .btn-border-thin.button-secondary:active, .palette-primary .btn-border-thick.button-secondary:active, .palette-primary .woocommerce .alt.button.btn-border:active, .palette-primary .woocommerce .btn-border-thin.alt.button:active, .palette-primary .woocommerce .btn-border-thick.alt.button:active, .btn-border.btn-color-2.active, .btn-border-thin.btn-color-2.active, .palette-primary .button-secondary.btn-border-thin.active, .palette-primary .woocommerce .alt.button.btn-border-thin.active, .btn-border-thick.btn-color-2.active, .palette-primary .button-secondary.btn-border-thick.active, .palette-primary .woocommerce .alt.button.btn-border-thick.active, .palette-primary .button-secondary.btn-border.active, .palette-primary .btn-border-thin.button-secondary.active, .palette-primary .btn-border-thick.button-secondary.active, .palette-primary .woocommerce .alt.button.btn-border.active, .palette-primary .woocommerce .btn-border-thin.alt.button.active, .palette-primary .woocommerce .btn-border-thick.alt.button.active, .btn-border.btn-color-2.is-active, .btn-border-thin.btn-color-2.is-active, .palette-primary .button-secondary.btn-border-thin.is-active, .palette-primary .woocommerce .alt.button.btn-border-thin.is-active, .btn-border-thick.btn-color-2.is-active, .palette-primary .button-secondary.btn-border-thick.is-active, .palette-primary .woocommerce .alt.button.btn-border-thick.is-active, .palette-primary .button-secondary.btn-border.is-active, .palette-primary .btn-border-thin.button-secondary.is-active, .palette-primary .btn-border-thick.button-secondary.is-active, .palette-primary .woocommerce .alt.button.btn-border.is-active, .palette-primary .woocommerce .btn-border-thin.alt.button.is-active, .palette-primary .woocommerce .btn-border-thick.alt.button.is-active {
+      background-color: rgba(255, 255, 255, .7);
+      color: rgba(51, 51, 51, .5);
       opacity: 0.3; }
   .btn-border.btn-color-3, .btn-border-thin.btn-color-3, .btn-border-thick.btn-color-3 {
-    color: #5b94ad; }
+    color: #99456e; }
     .btn-border.btn-color-3:hover, .btn-border-thin.btn-color-3:hover, .btn-border-thick.btn-color-3:hover, .btn-border.btn-color-3:focus, .btn-border-thin.btn-color-3:focus, .btn-border-thick.btn-color-3:focus {
-      background-color: rgba(125, 170, 190, .9);
+      background-color: rgba(181, 92, 135, .9);
       color: rgba(255, 255, 255, .9); }
     .btn-border.btn-color-3:active, .btn-border-thin.btn-color-3:active, .btn-border-thick.btn-color-3:active, .btn-border.btn-color-3.active, .btn-border-thin.btn-color-3.active, .btn-border-thick.btn-color-3.active, .btn-border.btn-color-3.is-active, .btn-border-thin.btn-color-3.is-active, .btn-border-thick.btn-color-3.is-active {
-      background-color: rgba(103, 143, 161, .7);
+      background-color: rgba(142, 80, 110, .7);
       color: rgba(255, 255, 255, .5);
       opacity: 0.3; }
   .btn-border.btn-color-4, .btn-border-thin.btn-color-4, .btn-border-thick.btn-color-4 {
-    color: #b54848; }
+    color: #fff; }
     .btn-border.btn-color-4:hover, .btn-border-thin.btn-color-4:hover, .btn-border-thick.btn-color-4:hover, .btn-border.btn-color-4:focus, .btn-border-thin.btn-color-4:focus, .btn-border-thick.btn-color-4:focus {
-      background-color: rgba(196, 108, 108, .9);
-      color: rgba(255, 255, 255, .9); }
+      background-color: rgba(255, 255, 255, .9);
+      color: rgba(51, 51, 51, .9); }
     .btn-border.btn-color-4:active, .btn-border-thin.btn-color-4:active, .btn-border-thick.btn-color-4:active, .btn-border.btn-color-4.active, .btn-border-thin.btn-color-4.active, .btn-border-thick.btn-color-4.active, .btn-border.btn-color-4.is-active, .btn-border-thin.btn-color-4.is-active, .btn-border-thick.btn-color-4.is-active {
-      background-color: rgba(168, 85, 85, .7);
-      color: rgba(255, 255, 255, .5);
+      background-color: rgba(255, 255, 255, .7);
+      color: rgba(51, 51, 51, .5);
       opacity: 0.3; }
   .btn-border.btn-color-5, .btn-border-thin.btn-color-5, .btn-border-thick.btn-color-5 {
-    color: #2d353d; }
+    color: #353535; }
     .btn-border.btn-color-5:hover, .btn-border-thin.btn-color-5:hover, .btn-border-thick.btn-color-5:hover, .btn-border.btn-color-5:focus, .btn-border-thin.btn-color-5:focus, .btn-border-thick.btn-color-5:focus {
-      background-color: rgba(67, 79, 90, .9);
+      background-color: rgba(79, 79, 79, .9);
       color: rgba(255, 255, 255, .9); }
     .btn-border.btn-color-5:active, .btn-border-thin.btn-color-5:active, .btn-border-thick.btn-color-5:active, .btn-border.btn-color-5.active, .btn-border-thin.btn-color-5.active, .btn-border-thick.btn-color-5.active, .btn-border.btn-color-5.is-active, .btn-border-thin.btn-color-5.is-active, .btn-border-thick.btn-color-5.is-active {
-      background-color: rgba(50, 53, 56, .7);
+      background-color: rgba(53, 53, 53, .7);
       color: rgba(255, 255, 255, .5);
       opacity: 0.3; }
   .btn-border.btn-neutral-color, .btn-border-thin.btn-neutral-color, .btn-border-thick.btn-neutral-color {
-    color: #2d353d; }
+    color: #353535; }
     .btn-border.btn-neutral-color:hover, .btn-border-thin.btn-neutral-color:hover, .btn-border-thick.btn-neutral-color:hover, .btn-border.btn-neutral-color:focus, .btn-border-thin.btn-neutral-color:focus, .btn-border-thick.btn-neutral-color:focus {
-      background-color: rgba(67, 79, 90, .9);
+      background-color: rgba(79, 79, 79, .9);
       color: rgba(255, 255, 255, .9); }
     .btn-border.btn-neutral-color:active, .btn-border-thin.btn-neutral-color:active, .btn-border-thick.btn-neutral-color:active, .btn-border.btn-neutral-color.active, .btn-border-thin.btn-neutral-color.active, .btn-border-thick.btn-neutral-color.active, .btn-border.btn-neutral-color.is-active, .btn-border-thin.btn-neutral-color.is-active, .btn-border-thick.btn-neutral-color.is-active {
-      background-color: rgba(50, 53, 56, .7);
+      background-color: rgba(53, 53, 53, .7);
       color: rgba(255, 255, 255, .5);
       opacity: 0.3; }
   .btn-border.btn-giant, .btn-border-thin.btn-giant, .btn-border-thick.btn-giant {
@@ -446,8 +446,8 @@
   background: none;
   border: none;
   padding: 0 8px !important;
-  color: #5b94ad;
-  font-size: inherit * 1.3;
+  color: #99456e;
+  font-size: 1.3em;
   font-weight: 200;
   /*
    * Borderless Button Colors
@@ -471,42 +471,42 @@
   transition-property: all;
   transition-duration: 0.3s;
   opacity: 0.3; }
-  .btn-borderless.btn-color-1 {
-    color: #5b94ad; }
-  .btn-borderless.btn-color-2 {
-    color: #b54848; }
+  .btn-borderless.btn-color-1, .palette-primary .button-primary.btn-borderless, .palette-primary .woocommerce .button.btn-borderless {
+    color: #99456e; }
+  .btn-borderless.btn-color-2, .palette-primary .button-secondary.btn-borderless, .palette-primary .woocommerce .alt.button.btn-borderless {
+    color: #fff; }
   .btn-borderless.btn-color-3 {
-    color: #5b94ad; }
+    color: #99456e; }
   .btn-borderless.btn-color-4 {
-    color: #b54848; }
+    color: #fff; }
   .btn-borderless.btn-color-5 {
-    color: #2d353d; }
+    color: #353535; }
   .btn-borderless.btn-neutral-color {
-    color: #2d353d; }
+    color: #353535; }
   .btn-borderless.btn-giant {
-    font-size: inherit * 1.75 * 1.3;
-    height: inherit * 1.75 * 1.316;
-    line-height: inherit * 1.75 * 1.316; }
+    font-size: 2.275em;
+    height: 18.275em;
+    line-height: 18.275em; }
   .btn-borderless.btn-jumbo {
-    font-size: inherit * 1.5 * 1.3;
-    height: inherit * 1.5 * 1.316;
-    line-height: inherit * 1.5 * 1.316; }
+    font-size: 1.95em;
+    height: 17.95em;
+    line-height: 17.95em; }
   .btn-borderless.btn-large {
-    font-size: inherit * 1.25 * 1.3;
-    height: inherit * 1.25 * 1.316;
-    line-height: inherit * 1.25 * 1.316; }
+    font-size: 1.625em;
+    height: 17.625em;
+    line-height: 17.625em; }
   .btn-borderless.btn-normal {
-    font-size: inherit * 1 * 1.3;
-    height: inherit * 1 * 1.316;
-    line-height: inherit * 1 * 1.316; }
+    font-size: 1.3em;
+    height: 17.3em;
+    line-height: 17.3em; }
   .btn-borderless.btn-small {
-    font-size: inherit * 0.75 * 1.3;
-    height: inherit * 0.75 * 1.316;
-    line-height: inherit * 0.75 * 1.316; }
+    font-size: 0.975em;
+    height: 16.975em;
+    line-height: 16.975em; }
   .btn-borderless.btn-tiny {
-    font-size: inherit * 0.6 * 1.3;
-    height: inherit * 0.6 * 1.316;
-    line-height: inherit * 0.6 * 1.316; }
+    font-size: 0.78em;
+    height: 16.78em;
+    line-height: 16.78em; }
 /*
  * Raised Buttons
  *
@@ -514,72 +514,72 @@
  * great depth and affordance.
  */
 .btn-raised {
-  border-color: #50879f;
+  border-color: #873d61;
   border-style: solid;
   border-width: 1px;
   line-height: 38px;
-  background: linear-gradient(#659bb2, #50879f);
+  background: linear-gradient(#a44a76, #873d61);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .3), 0 1px 2px rgba(0, 0, 0, .15); }
 
 .btn-raised:hover, .btn-raised:focus {
-  background: linear-gradient(#76a6bb, #4c8198); }
+  background: linear-gradient(#b25582, #803a5c); }
 
 .btn-raised:active, .btn-raised.active, .btn-raised.is-active {
-  background: #678fa1;
+  background: #8e506e;
   box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .2), 0px 1px 0px rgba(255, 255, 255, 1); }
 /*
  * Raised Button Colors
  *
  * Create colors for raised buttons
  */
-.btn-raised.btn-color-1 {
-  border-color: #50879f;
-  background: linear-gradient(#6c9fb6, #50879f); }
-  .btn-raised.btn-color-1:hover, .btn-raised.btn-color-1:focus {
-    background: linear-gradient(#76a6bb, #4c8198); }
-  .btn-raised.btn-color-1:active, .btn-raised.btn-color-1.active, .btn-raised.btn-color-1.is-active {
-    border-color: #47788e;
-    background: #678fa1; }
-  .btn-raised.btn-color-2 {
-    border-color: #a34141;
-    background: linear-gradient(#bd5959, #a34141); }
-  .btn-raised.btn-color-2:hover, .btn-raised.btn-color-2:focus {
-    background: linear-gradient(#c16464, #9b3e3e); }
-  .btn-raised.btn-color-2:active, .btn-raised.btn-color-2.active, .btn-raised.btn-color-2.is-active {
-    border-color: #913939;
-    background: #a85555; }
+.btn-raised.btn-color-1, .palette-primary .button-primary.btn-raised, .palette-primary .woocommerce .button.btn-raised {
+  border-color: #873d61;
+  background: linear-gradient(#ab4d7b, #873d61); }
+  .btn-raised.btn-color-1:hover, .palette-primary .button-primary.btn-raised:hover, .palette-primary .woocommerce .button.btn-raised:hover, .btn-raised.btn-color-1:focus, .palette-primary .button-primary.btn-raised:focus, .palette-primary .woocommerce .button.btn-raised:focus {
+    background: linear-gradient(#b25582, #803a5c); }
+  .btn-raised.btn-color-1:active, .palette-primary .button-primary.btn-raised:active, .palette-primary .woocommerce .button.btn-raised:active, .btn-raised.btn-color-1.active, .palette-primary .button-primary.btn-raised.active, .palette-primary .woocommerce .button.btn-raised.active, .btn-raised.btn-color-1.is-active, .palette-primary .button-primary.btn-raised.is-active, .palette-primary .woocommerce .button.btn-raised.is-active {
+    border-color: #763555;
+    background: #8e506e; }
+  .btn-raised.btn-color-2, .palette-primary .button-secondary.btn-raised, .palette-primary .woocommerce .alt.button.btn-raised {
+    border-color: #f2f2f2;
+    background: linear-gradient(#fff, #f2f2f2); }
+  .btn-raised.btn-color-2:hover, .palette-primary .button-secondary.btn-raised:hover, .palette-primary .woocommerce .alt.button.btn-raised:hover, .btn-raised.btn-color-2:focus, .palette-primary .button-secondary.btn-raised:focus, .palette-primary .woocommerce .alt.button.btn-raised:focus {
+    background: linear-gradient(#fff, #ededed); }
+  .btn-raised.btn-color-2:active, .palette-primary .button-secondary.btn-raised:active, .palette-primary .woocommerce .alt.button.btn-raised:active, .btn-raised.btn-color-2.active, .palette-primary .button-secondary.btn-raised.active, .palette-primary .woocommerce .alt.button.btn-raised.active, .btn-raised.btn-color-2.is-active, .palette-primary .button-secondary.btn-raised.is-active, .palette-primary .woocommerce .alt.button.btn-raised.is-active {
+    border-color: #e6e6e6;
+    background: #fff; }
   .btn-raised.btn-color-3 {
-    border-color: #50879f;
-    background: linear-gradient(#6c9fb6, #50879f); }
+    border-color: #873d61;
+    background: linear-gradient(#ab4d7b, #873d61); }
   .btn-raised.btn-color-3:hover, .btn-raised.btn-color-3:focus {
-    background: linear-gradient(#76a6bb, #4c8198); }
+    background: linear-gradient(#b25582, #803a5c); }
   .btn-raised.btn-color-3:active, .btn-raised.btn-color-3.active, .btn-raised.btn-color-3.is-active {
-    border-color: #47788e;
-    background: #678fa1; }
+    border-color: #763555;
+    background: #8e506e; }
   .btn-raised.btn-color-4 {
-    border-color: #a34141;
-    background: linear-gradient(#bd5959, #a34141); }
+    border-color: #f2f2f2;
+    background: linear-gradient(#fff, #f2f2f2); }
   .btn-raised.btn-color-4:hover, .btn-raised.btn-color-4:focus {
-    background: linear-gradient(#c16464, #9b3e3e); }
+    background: linear-gradient(#fff, #ededed); }
   .btn-raised.btn-color-4:active, .btn-raised.btn-color-4.active, .btn-raised.btn-color-4.is-active {
-    border-color: #913939;
-    background: #a85555; }
+    border-color: #e6e6e6;
+    background: #fff; }
   .btn-raised.btn-color-5 {
-    border-color: #22282e;
-    background: linear-gradient(#38424c, #22282e); }
+    border-color: #282828;
+    background: linear-gradient(#424242, #282828); }
   .btn-raised.btn-color-5:hover, .btn-raised.btn-color-5:focus {
-    background: linear-gradient(#3e4954, #1e2328); }
+    background: linear-gradient(#494949, #232323); }
   .btn-raised.btn-color-5:active, .btn-raised.btn-color-5.active, .btn-raised.btn-color-5.is-active {
-    border-color: #171c20;
-    background: #323538; }
+    border-color: #1c1c1c;
+    background: #353535; }
   .btn-raised.btn-neutral-color {
-    border-color: #22282e;
-    background: linear-gradient(#38424c, #22282e); }
+    border-color: #282828;
+    background: linear-gradient(#424242, #282828); }
   .btn-raised.btn-neutral-color:hover, .btn-raised.btn-neutral-color:focus {
-    background: linear-gradient(#3e4954, #1e2328); }
+    background: linear-gradient(#494949, #232323); }
   .btn-raised.btn-neutral-color:active, .btn-raised.btn-neutral-color.active, .btn-raised.btn-neutral-color.is-active {
-    border-color: #171c20;
-    background: #323538; }
+    border-color: #1c1c1c;
+    background: #353535; }
 /*
  * 3D Buttons
  *
@@ -590,56 +590,56 @@
 .btn-3d {
   position: relative;
   top: 0;
-  box-shadow: 0 7px 0 #365c6c, 0 8px 3px rgba(0, 0, 0, .2); }
+  box-shadow: 0 7px 0 #53253b, 0 8px 3px rgba(0, 0, 0, .2); }
 
 .btn-3d:hover, .btn-3d:focus {
-  box-shadow: 0 7px 0 #365c6c, 0 8px 3px rgba(0, 0, 0, .2); }
+  box-shadow: 0 7px 0 #53253b, 0 8px 3px rgba(0, 0, 0, .2); }
 
 .btn-3d:active, .btn-3d.active, .btn-3d.is-active {
   top: 5px;
   transition-property: all;
   transition-duration: 0.15s;
-  box-shadow: 0 2px 0 #365c6c, 0 3px 3px rgba(0, 0, 0, .2); }
+  box-shadow: 0 2px 0 #53253b, 0 3px 3px rgba(0, 0, 0, .2); }
 /*
  * 3D Button Colors
  *
  * Create colors for buttons
  * (.button-primary, .button-secondary, etc.)
  */
-.btn-3d.btn-color-1 {
-  box-shadow: 0 7px 0 #47788e, 0 8px 3px rgba(0, 0, 0, .30); }
-  .btn-3d.btn-color-1:hover, .btn-3d.btn-color-1:focus {
-    box-shadow: 0 7px 0 #447387, 0 8px 3px rgba(0, 0, 0, .30); }
-  .btn-3d.btn-color-1:active, .btn-3d.btn-color-1.active, .btn-3d.btn-color-1.is-active {
-    box-shadow: 0 2px 0 #365c6c, 0 3px 3px rgba(0, 0, 0, .2); }
-  .btn-3d.btn-color-2 {
-    box-shadow: 0 7px 0 #913939, 0 8px 3px rgba(0, 0, 0, .30); }
-  .btn-3d.btn-color-2:hover, .btn-3d.btn-color-2:focus {
-    box-shadow: 0 7px 0 #893737, 0 8px 3px rgba(0, 0, 0, .30); }
-  .btn-3d.btn-color-2:active, .btn-3d.btn-color-2.active, .btn-3d.btn-color-2.is-active {
-    box-shadow: 0 2px 0 #6c2b2b, 0 3px 3px rgba(0, 0, 0, .2); }
+.btn-3d.btn-color-1, .palette-primary .button-primary.btn-3d, .palette-primary .woocommerce .button.btn-3d {
+  box-shadow: 0 7px 0 #763555, 0 8px 3px rgba(0, 0, 0, .30); }
+  .btn-3d.btn-color-1:hover, .palette-primary .button-primary.btn-3d:hover, .palette-primary .woocommerce .button.btn-3d:hover, .btn-3d.btn-color-1:focus, .palette-primary .button-primary.btn-3d:focus, .palette-primary .woocommerce .button.btn-3d:focus {
+    box-shadow: 0 7px 0 #6f3250, 0 8px 3px rgba(0, 0, 0, .30); }
+  .btn-3d.btn-color-1:active, .palette-primary .button-primary.btn-3d:active, .palette-primary .woocommerce .button.btn-3d:active, .btn-3d.btn-color-1.active, .palette-primary .button-primary.btn-3d.active, .palette-primary .woocommerce .button.btn-3d.active, .btn-3d.btn-color-1.is-active, .palette-primary .button-primary.btn-3d.is-active, .palette-primary .woocommerce .button.btn-3d.is-active {
+    box-shadow: 0 2px 0 #53253b, 0 3px 3px rgba(0, 0, 0, .2); }
+  .btn-3d.btn-color-2, .palette-primary .button-secondary.btn-3d, .palette-primary .woocommerce .alt.button.btn-3d {
+    box-shadow: 0 7px 0 #e6e6e6, 0 8px 3px rgba(0, 0, 0, .30); }
+  .btn-3d.btn-color-2:hover, .palette-primary .button-secondary.btn-3d:hover, .palette-primary .woocommerce .alt.button.btn-3d:hover, .btn-3d.btn-color-2:focus, .palette-primary .button-secondary.btn-3d:focus, .palette-primary .woocommerce .alt.button.btn-3d:focus {
+    box-shadow: 0 7px 0 #e0e0e0, 0 8px 3px rgba(0, 0, 0, .30); }
+  .btn-3d.btn-color-2:active, .palette-primary .button-secondary.btn-3d:active, .palette-primary .woocommerce .alt.button.btn-3d:active, .btn-3d.btn-color-2.active, .palette-primary .button-secondary.btn-3d.active, .palette-primary .woocommerce .alt.button.btn-3d.active, .btn-3d.btn-color-2.is-active, .palette-primary .button-secondary.btn-3d.is-active, .palette-primary .woocommerce .alt.button.btn-3d.is-active {
+    box-shadow: 0 2px 0 #ccc, 0 3px 3px rgba(0, 0, 0, .2); }
   .btn-3d.btn-color-3 {
-    box-shadow: 0 7px 0 #47788e, 0 8px 3px rgba(0, 0, 0, .30); }
+    box-shadow: 0 7px 0 #763555, 0 8px 3px rgba(0, 0, 0, .30); }
   .btn-3d.btn-color-3:hover, .btn-3d.btn-color-3:focus {
-    box-shadow: 0 7px 0 #447387, 0 8px 3px rgba(0, 0, 0, .30); }
+    box-shadow: 0 7px 0 #6f3250, 0 8px 3px rgba(0, 0, 0, .30); }
   .btn-3d.btn-color-3:active, .btn-3d.btn-color-3.active, .btn-3d.btn-color-3.is-active {
-    box-shadow: 0 2px 0 #365c6c, 0 3px 3px rgba(0, 0, 0, .2); }
+    box-shadow: 0 2px 0 #53253b, 0 3px 3px rgba(0, 0, 0, .2); }
   .btn-3d.btn-color-4 {
-    box-shadow: 0 7px 0 #913939, 0 8px 3px rgba(0, 0, 0, .30); }
+    box-shadow: 0 7px 0 #e6e6e6, 0 8px 3px rgba(0, 0, 0, .30); }
   .btn-3d.btn-color-4:hover, .btn-3d.btn-color-4:focus {
-    box-shadow: 0 7px 0 #893737, 0 8px 3px rgba(0, 0, 0, .30); }
+    box-shadow: 0 7px 0 #e0e0e0, 0 8px 3px rgba(0, 0, 0, .30); }
   .btn-3d.btn-color-4:active, .btn-3d.btn-color-4.active, .btn-3d.btn-color-4.is-active {
-    box-shadow: 0 2px 0 #6c2b2b, 0 3px 3px rgba(0, 0, 0, .2); }
+    box-shadow: 0 2px 0 #ccc, 0 3px 3px rgba(0, 0, 0, .2); }
   .btn-3d.btn-color-5 {
-    box-shadow: 0 7px 0 #171c20, 0 8px 3px rgba(0, 0, 0, .30); }
+    box-shadow: 0 7px 0 #1c1c1c, 0 8px 3px rgba(0, 0, 0, .30); }
   .btn-3d.btn-color-5:hover, .btn-3d.btn-color-5:focus {
-    box-shadow: 0 7px 0 #13161a, 0 8px 3px rgba(0, 0, 0, .30); }
+    box-shadow: 0 7px 0 #161616, 0 8px 3px rgba(0, 0, 0, .30); }
   .btn-3d.btn-color-5:active, .btn-3d.btn-color-5.active, .btn-3d.btn-color-5.is-active {
     box-shadow: 0 2px 0 #020202, 0 3px 3px rgba(0, 0, 0, .2); }
   .btn-3d.btn-neutral-color {
-    box-shadow: 0 7px 0 #171c20, 0 8px 3px rgba(0, 0, 0, .30); }
+    box-shadow: 0 7px 0 #1c1c1c, 0 8px 3px rgba(0, 0, 0, .30); }
   .btn-3d.btn-neutral-color:hover, .btn-3d.btn-neutral-color:focus {
-    box-shadow: 0 7px 0 #13161a, 0 8px 3px rgba(0, 0, 0, .30); }
+    box-shadow: 0 7px 0 #161616, 0 8px 3px rgba(0, 0, 0, .30); }
   .btn-3d.btn-neutral-color:active, .btn-3d.btn-neutral-color.active, .btn-3d.btn-neutral-color.is-active {
     box-shadow: 0 2px 0 #020202, 0 3px 3px rgba(0, 0, 0, .2); }
 /*
@@ -674,11 +674,11 @@
 
 @keyframes glowing-color-1 {
     from {
-      box-shadow: 0 0 0 rgba(91, 148, 173, 0.3); }
+      box-shadow: 0 0 0 rgba(153, 69, 110, 0.3); }
     50% {
-      box-shadow: 0 0 20px rgba(91, 148, 173, 0.8); }
+      box-shadow: 0 0 20px rgba(153, 69, 110, 0.8); }
     to {
-      box-shadow: 0 0 0 rgba(91, 148, 173, 0.3); } }
+      box-shadow: 0 0 0 rgba(153, 69, 110, 0.3); } }
 
 /*
  * Glowing Keyframes for various colors
@@ -687,11 +687,11 @@
 
 @keyframes glowing-color-2 {
     from {
-      box-shadow: 0 0 0 rgba(181, 72, 72, 0.3); }
+      box-shadow: 0 0 0 rgba(255, 255, 255, 0.3); }
     50% {
-      box-shadow: 0 0 20px rgba(181, 72, 72, 0.8); }
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
     to {
-      box-shadow: 0 0 0 rgba(181, 72, 72, 0.3); } }
+      box-shadow: 0 0 0 rgba(255, 255, 255, 0.3); } }
 
 /*
  * Glowing Keyframes for various colors
@@ -700,11 +700,11 @@
 
 @keyframes glowing-color-3 {
     from {
-      box-shadow: 0 0 0 rgba(91, 148, 173, 0.3); }
+      box-shadow: 0 0 0 rgba(153, 69, 110, 0.3); }
     50% {
-      box-shadow: 0 0 20px rgba(91, 148, 173, 0.8); }
+      box-shadow: 0 0 20px rgba(153, 69, 110, 0.8); }
     to {
-      box-shadow: 0 0 0 rgba(91, 148, 173, 0.3); } }
+      box-shadow: 0 0 0 rgba(153, 69, 110, 0.3); } }
 
 /*
  * Glowing Keyframes for various colors
@@ -713,11 +713,11 @@
 
 @keyframes glowing-color-4 {
     from {
-      box-shadow: 0 0 0 rgba(181, 72, 72, 0.3); }
+      box-shadow: 0 0 0 rgba(255, 255, 255, 0.3); }
     50% {
-      box-shadow: 0 0 20px rgba(181, 72, 72, 0.8); }
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
     to {
-      box-shadow: 0 0 0 rgba(181, 72, 72, 0.3); } }
+      box-shadow: 0 0 0 rgba(255, 255, 255, 0.3); } }
 
 /*
  * Glowing Keyframes for various colors
@@ -726,11 +726,11 @@
 
 @keyframes glowing-color-5 {
     from {
-      box-shadow: 0 0 0 rgba(45, 53, 61, 0.3); }
+      box-shadow: 0 0 0 rgba(53, 53, 53, 0.3); }
     50% {
-      box-shadow: 0 0 20px rgba(45, 53, 61, 0.8); }
+      box-shadow: 0 0 20px rgba(53, 53, 53, 0.8); }
     to {
-      box-shadow: 0 0 0 rgba(45, 53, 61, 0.3); } }
+      box-shadow: 0 0 0 rgba(53, 53, 53, 0.3); } }
 
 /*
  * Glowing Keyframes for various colors
@@ -739,11 +739,11 @@
 
 @keyframes glowing-neutral-color {
     from {
-      box-shadow: 0 0 0 rgba(45, 53, 61, 0.3); }
+      box-shadow: 0 0 0 rgba(53, 53, 53, 0.3); }
     50% {
-      box-shadow: 0 0 20px rgba(45, 53, 61, 0.8); }
+      box-shadow: 0 0 20px rgba(53, 53, 53, 0.8); }
     to {
-      box-shadow: 0 0 0 rgba(45, 53, 61, 0.3); } }
+      box-shadow: 0 0 0 rgba(53, 53, 53, 0.3); } }
 /*
  * Glowing Buttons Base Styes
  *
@@ -763,9 +763,9 @@
  *
  * Create colors for glowing buttons
  */
-.btn-glow.btn-color-1 {
+.btn-glow.btn-color-1, .palette-primary .button-primary.btn-glow, .palette-primary .woocommerce .button.btn-glow {
   animation-name: glowing-color-1; }
-  .btn-glow.btn-color-2 {
+  .btn-glow.btn-color-2, .palette-primary .button-secondary.btn-glow, .palette-primary .woocommerce .alt.button.btn-glow {
     animation-name: glowing-color-2; }
   .btn-glow.btn-color-3 {
     animation-name: glowing-color-3; }
@@ -803,10 +803,10 @@
   z-index: 1000;
   min-width: 100%;
   list-style-type: none;
-  background: rgba(125, 170, 190, .95);
+  background: rgba(181, 92, 135, .95);
   border-style: solid;
   border-width: 1px;
-  border-color: #47788e;
+  border-color: #763555;
   font-family: inherit;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
@@ -843,18 +843,18 @@
 .btn-dropdown-list > li > a {
   display: block;
   line-height: 40px;
-  font-size: inherit * 0.8;
+  font-size: 0.8em;
   padding: 5px 10px;
   float: none;
   color: #fff;
   text-decoration: none; }
   .btn-dropdown-list > li > a:hover {
     color: #f7f7f7;
-    background: #659bb2;
+    background: #a44a76;
     text-decoration: none; }
 
 .btn-dropdown-divider {
-  border-top: 1px solid #538da6; }
+  border-top: 1px solid #8e4066; }
 /*
  * Dropdown Colors
  *
@@ -862,65 +862,65 @@
  * (.button-primary, .button-secondary, etc.)
  */
 .btn-dropdown.btn-dropdown-color-1 .btn-dropdown-list {
-  background: rgba(91, 148, 173, .95);
-  border-color: #47788e; }
+  background: rgba(153, 69, 110, .95);
+  border-color: #763555; }
   .btn-dropdown.btn-dropdown-color-1 .btn-dropdown-list .btn-dropdown-divider {
-    border-color: #4c8198; }
+    border-color: #803a5c; }
   .btn-dropdown.btn-dropdown-color-1 .btn-dropdown-list > li > a {
     color: #fff; }
     .btn-dropdown.btn-dropdown-color-1 .btn-dropdown-list > li > a:hover {
       color: #f2f2f2;
-      background: #50879f; }
+      background: #873d61; }
   .btn-dropdown.btn-dropdown-color-2 .btn-dropdown-list {
-    background: rgba(181, 72, 72, .95);
-    border-color: #913939; }
+    background: rgba(255, 255, 255, .95);
+    border-color: #e6e6e6; }
   .btn-dropdown.btn-dropdown-color-2 .btn-dropdown-list .btn-dropdown-divider {
-    border-color: #9b3e3e; }
+    border-color: #ededed; }
   .btn-dropdown.btn-dropdown-color-2 .btn-dropdown-list > li > a {
-    color: #fff; }
+    color: #333; }
     .btn-dropdown.btn-dropdown-color-2 .btn-dropdown-list > li > a:hover {
-      color: #f2f2f2;
-      background: #a34141; }
+      color: #262626;
+      background: #f2f2f2; }
   .btn-dropdown.btn-dropdown-color-3 .btn-dropdown-list {
-    background: rgba(91, 148, 173, .95);
-    border-color: #47788e; }
+    background: rgba(153, 69, 110, .95);
+    border-color: #763555; }
   .btn-dropdown.btn-dropdown-color-3 .btn-dropdown-list .btn-dropdown-divider {
-    border-color: #4c8198; }
+    border-color: #803a5c; }
   .btn-dropdown.btn-dropdown-color-3 .btn-dropdown-list > li > a {
     color: #fff; }
     .btn-dropdown.btn-dropdown-color-3 .btn-dropdown-list > li > a:hover {
       color: #f2f2f2;
-      background: #50879f; }
+      background: #873d61; }
   .btn-dropdown.btn-dropdown-color-4 .btn-dropdown-list {
-    background: rgba(181, 72, 72, .95);
-    border-color: #913939; }
+    background: rgba(255, 255, 255, .95);
+    border-color: #e6e6e6; }
   .btn-dropdown.btn-dropdown-color-4 .btn-dropdown-list .btn-dropdown-divider {
-    border-color: #9b3e3e; }
+    border-color: #ededed; }
   .btn-dropdown.btn-dropdown-color-4 .btn-dropdown-list > li > a {
-    color: #fff; }
+    color: #333; }
     .btn-dropdown.btn-dropdown-color-4 .btn-dropdown-list > li > a:hover {
-      color: #f2f2f2;
-      background: #a34141; }
+      color: #262626;
+      background: #f2f2f2; }
   .btn-dropdown.btn-dropdown-color-5 .btn-dropdown-list {
-    background: rgba(45, 53, 61, .95);
-    border-color: #171c20; }
+    background: rgba(53, 53, 53, .95);
+    border-color: #1c1c1c; }
   .btn-dropdown.btn-dropdown-color-5 .btn-dropdown-list .btn-dropdown-divider {
-    border-color: #1e2328; }
+    border-color: #232323; }
   .btn-dropdown.btn-dropdown-color-5 .btn-dropdown-list > li > a {
     color: #fff; }
     .btn-dropdown.btn-dropdown-color-5 .btn-dropdown-list > li > a:hover {
       color: #f2f2f2;
-      background: #22282e; }
+      background: #282828; }
   .btn-dropdown.btn-dropdown-neutral-color .btn-dropdown-list {
-    background: rgba(45, 53, 61, .95);
-    border-color: #171c20; }
+    background: rgba(53, 53, 53, .95);
+    border-color: #1c1c1c; }
   .btn-dropdown.btn-dropdown-neutral-color .btn-dropdown-list .btn-dropdown-divider {
-    border-color: #1e2328; }
+    border-color: #232323; }
   .btn-dropdown.btn-dropdown-neutral-color .btn-dropdown-list > li > a {
     color: #fff; }
     .btn-dropdown.btn-dropdown-neutral-color .btn-dropdown-list > li > a:hover {
       color: #f2f2f2;
-      background: #22282e; }
+      background: #282828; }
 /*
  * Buton Groups
  *
@@ -989,28 +989,28 @@
  */
 .btn-longshadow, .btn-longshadow-right {
   overflow: hidden; }
-  .btn-longshadow.btn-color-1, .btn-longshadow-right.btn-color-1 {
-    text-shadow: 0px 0px #47788e, 1px 1px #47788e, 2px 2px #47788e, 3px 3px #47788e, 4px 4px #47788e, 5px 5px #47788e, 6px 6px #47788e, 7px 7px #47788e, 8px 8px #47788e, 9px 9px #47788e, 10px 10px #47788e, 11px 11px #47788e, 12px 12px #47788e, 13px 13px #47788e, 14px 14px #47788e, 15px 15px #47788e, 16px 16px #47788e, 17px 17px #47788e, 18px 18px #47788e, 19px 19px #47788e, 20px 20px #47788e, 21px 21px #47788e, 22px 22px #47788e, 23px 23px #47788e, 24px 24px #47788e, 25px 25px #47788e, 26px 26px #47788e, 27px 27px #47788e, 28px 28px #47788e, 29px 29px #47788e, 30px 30px #47788e, 31px 31px #47788e, 32px 32px #47788e, 33px 33px #47788e, 34px 34px #47788e, 35px 35px #47788e, 36px 36px #47788e, 37px 37px #47788e, 38px 38px #47788e, 39px 39px #47788e, 40px 40px #47788e, 41px 41px #47788e, 42px 42px #47788e, 43px 43px #47788e, 44px 44px #47788e, 45px 45px #47788e, 46px 46px #47788e, 47px 47px #47788e, 48px 48px #47788e, 49px 49px #47788e, 50px 50px #47788e, 51px 51px #47788e, 52px 52px #47788e, 53px 53px #47788e, 54px 54px #47788e, 55px 55px #47788e, 56px 56px #47788e, 57px 57px #47788e, 58px 58px #47788e, 59px 59px #47788e, 60px 60px #47788e, 61px 61px #47788e, 62px 62px #47788e, 63px 63px #47788e, 64px 64px #47788e, 65px 65px #47788e, 66px 66px #47788e, 67px 67px #47788e, 68px 68px #47788e, 69px 69px #47788e, 70px 70px #47788e, 71px 71px #47788e, 72px 72px #47788e, 73px 73px #47788e, 74px 74px #47788e, 75px 75px #47788e, 76px 76px #47788e, 77px 77px #47788e, 78px 78px #47788e, 79px 79px #47788e, 80px 80px #47788e, 81px 81px #47788e, 82px 82px #47788e, 83px 83px #47788e, 84px 84px #47788e, 85px 85px #47788e; }
-  .btn-longshadow.btn-color-1:active, .btn-longshadow-right.btn-color-1:active, .btn-longshadow.btn-color-1.active, .btn-longshadow-right.btn-color-1.active, .btn-longshadow.btn-color-1.is-active, .btn-longshadow-right.btn-color-1.is-active {
+  .btn-longshadow.btn-color-1, .palette-primary .button-primary.btn-longshadow, .palette-primary .woocommerce .button.btn-longshadow, .btn-longshadow-right.btn-color-1, .palette-primary .button-primary.btn-longshadow-right, .palette-primary .woocommerce .button.btn-longshadow-right {
+    text-shadow: 0px 0px #763555, 1px 1px #763555, 2px 2px #763555, 3px 3px #763555, 4px 4px #763555, 5px 5px #763555, 6px 6px #763555, 7px 7px #763555, 8px 8px #763555, 9px 9px #763555, 10px 10px #763555, 11px 11px #763555, 12px 12px #763555, 13px 13px #763555, 14px 14px #763555, 15px 15px #763555, 16px 16px #763555, 17px 17px #763555, 18px 18px #763555, 19px 19px #763555, 20px 20px #763555, 21px 21px #763555, 22px 22px #763555, 23px 23px #763555, 24px 24px #763555, 25px 25px #763555, 26px 26px #763555, 27px 27px #763555, 28px 28px #763555, 29px 29px #763555, 30px 30px #763555, 31px 31px #763555, 32px 32px #763555, 33px 33px #763555, 34px 34px #763555, 35px 35px #763555, 36px 36px #763555, 37px 37px #763555, 38px 38px #763555, 39px 39px #763555, 40px 40px #763555, 41px 41px #763555, 42px 42px #763555, 43px 43px #763555, 44px 44px #763555, 45px 45px #763555, 46px 46px #763555, 47px 47px #763555, 48px 48px #763555, 49px 49px #763555, 50px 50px #763555, 51px 51px #763555, 52px 52px #763555, 53px 53px #763555, 54px 54px #763555, 55px 55px #763555, 56px 56px #763555, 57px 57px #763555, 58px 58px #763555, 59px 59px #763555, 60px 60px #763555, 61px 61px #763555, 62px 62px #763555, 63px 63px #763555, 64px 64px #763555, 65px 65px #763555, 66px 66px #763555, 67px 67px #763555, 68px 68px #763555, 69px 69px #763555, 70px 70px #763555, 71px 71px #763555, 72px 72px #763555, 73px 73px #763555, 74px 74px #763555, 75px 75px #763555, 76px 76px #763555, 77px 77px #763555, 78px 78px #763555, 79px 79px #763555, 80px 80px #763555, 81px 81px #763555, 82px 82px #763555, 83px 83px #763555, 84px 84px #763555, 85px 85px #763555; }
+  .btn-longshadow.btn-color-1:active, .palette-primary .button-primary.btn-longshadow:active, .palette-primary .woocommerce .button.btn-longshadow:active, .btn-longshadow-right.btn-color-1:active, .palette-primary .button-primary.btn-longshadow-right:active, .palette-primary .woocommerce .button.btn-longshadow-right:active, .btn-longshadow.btn-color-1.active, .palette-primary .button-primary.btn-longshadow.active, .palette-primary .woocommerce .button.btn-longshadow.active, .btn-longshadow-right.btn-color-1.active, .palette-primary .button-primary.btn-longshadow-right.active, .palette-primary .woocommerce .button.btn-longshadow-right.active, .btn-longshadow.btn-color-1.is-active, .palette-primary .button-primary.btn-longshadow.is-active, .palette-primary .woocommerce .button.btn-longshadow.is-active, .btn-longshadow-right.btn-color-1.is-active, .palette-primary .button-primary.btn-longshadow-right.is-active, .palette-primary .woocommerce .button.btn-longshadow-right.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
-  .btn-longshadow.btn-color-2, .btn-longshadow-right.btn-color-2 {
-    text-shadow: 0px 0px #913939, 1px 1px #913939, 2px 2px #913939, 3px 3px #913939, 4px 4px #913939, 5px 5px #913939, 6px 6px #913939, 7px 7px #913939, 8px 8px #913939, 9px 9px #913939, 10px 10px #913939, 11px 11px #913939, 12px 12px #913939, 13px 13px #913939, 14px 14px #913939, 15px 15px #913939, 16px 16px #913939, 17px 17px #913939, 18px 18px #913939, 19px 19px #913939, 20px 20px #913939, 21px 21px #913939, 22px 22px #913939, 23px 23px #913939, 24px 24px #913939, 25px 25px #913939, 26px 26px #913939, 27px 27px #913939, 28px 28px #913939, 29px 29px #913939, 30px 30px #913939, 31px 31px #913939, 32px 32px #913939, 33px 33px #913939, 34px 34px #913939, 35px 35px #913939, 36px 36px #913939, 37px 37px #913939, 38px 38px #913939, 39px 39px #913939, 40px 40px #913939, 41px 41px #913939, 42px 42px #913939, 43px 43px #913939, 44px 44px #913939, 45px 45px #913939, 46px 46px #913939, 47px 47px #913939, 48px 48px #913939, 49px 49px #913939, 50px 50px #913939, 51px 51px #913939, 52px 52px #913939, 53px 53px #913939, 54px 54px #913939, 55px 55px #913939, 56px 56px #913939, 57px 57px #913939, 58px 58px #913939, 59px 59px #913939, 60px 60px #913939, 61px 61px #913939, 62px 62px #913939, 63px 63px #913939, 64px 64px #913939, 65px 65px #913939, 66px 66px #913939, 67px 67px #913939, 68px 68px #913939, 69px 69px #913939, 70px 70px #913939, 71px 71px #913939, 72px 72px #913939, 73px 73px #913939, 74px 74px #913939, 75px 75px #913939, 76px 76px #913939, 77px 77px #913939, 78px 78px #913939, 79px 79px #913939, 80px 80px #913939, 81px 81px #913939, 82px 82px #913939, 83px 83px #913939, 84px 84px #913939, 85px 85px #913939; }
-  .btn-longshadow.btn-color-2:active, .btn-longshadow-right.btn-color-2:active, .btn-longshadow.btn-color-2.active, .btn-longshadow-right.btn-color-2.active, .btn-longshadow.btn-color-2.is-active, .btn-longshadow-right.btn-color-2.is-active {
+  .btn-longshadow.btn-color-2, .palette-primary .button-secondary.btn-longshadow, .palette-primary .woocommerce .alt.button.btn-longshadow, .btn-longshadow-right.btn-color-2, .palette-primary .button-secondary.btn-longshadow-right, .palette-primary .woocommerce .alt.button.btn-longshadow-right {
+    text-shadow: 0px 0px #e6e6e6, 1px 1px #e6e6e6, 2px 2px #e6e6e6, 3px 3px #e6e6e6, 4px 4px #e6e6e6, 5px 5px #e6e6e6, 6px 6px #e6e6e6, 7px 7px #e6e6e6, 8px 8px #e6e6e6, 9px 9px #e6e6e6, 10px 10px #e6e6e6, 11px 11px #e6e6e6, 12px 12px #e6e6e6, 13px 13px #e6e6e6, 14px 14px #e6e6e6, 15px 15px #e6e6e6, 16px 16px #e6e6e6, 17px 17px #e6e6e6, 18px 18px #e6e6e6, 19px 19px #e6e6e6, 20px 20px #e6e6e6, 21px 21px #e6e6e6, 22px 22px #e6e6e6, 23px 23px #e6e6e6, 24px 24px #e6e6e6, 25px 25px #e6e6e6, 26px 26px #e6e6e6, 27px 27px #e6e6e6, 28px 28px #e6e6e6, 29px 29px #e6e6e6, 30px 30px #e6e6e6, 31px 31px #e6e6e6, 32px 32px #e6e6e6, 33px 33px #e6e6e6, 34px 34px #e6e6e6, 35px 35px #e6e6e6, 36px 36px #e6e6e6, 37px 37px #e6e6e6, 38px 38px #e6e6e6, 39px 39px #e6e6e6, 40px 40px #e6e6e6, 41px 41px #e6e6e6, 42px 42px #e6e6e6, 43px 43px #e6e6e6, 44px 44px #e6e6e6, 45px 45px #e6e6e6, 46px 46px #e6e6e6, 47px 47px #e6e6e6, 48px 48px #e6e6e6, 49px 49px #e6e6e6, 50px 50px #e6e6e6, 51px 51px #e6e6e6, 52px 52px #e6e6e6, 53px 53px #e6e6e6, 54px 54px #e6e6e6, 55px 55px #e6e6e6, 56px 56px #e6e6e6, 57px 57px #e6e6e6, 58px 58px #e6e6e6, 59px 59px #e6e6e6, 60px 60px #e6e6e6, 61px 61px #e6e6e6, 62px 62px #e6e6e6, 63px 63px #e6e6e6, 64px 64px #e6e6e6, 65px 65px #e6e6e6, 66px 66px #e6e6e6, 67px 67px #e6e6e6, 68px 68px #e6e6e6, 69px 69px #e6e6e6, 70px 70px #e6e6e6, 71px 71px #e6e6e6, 72px 72px #e6e6e6, 73px 73px #e6e6e6, 74px 74px #e6e6e6, 75px 75px #e6e6e6, 76px 76px #e6e6e6, 77px 77px #e6e6e6, 78px 78px #e6e6e6, 79px 79px #e6e6e6, 80px 80px #e6e6e6, 81px 81px #e6e6e6, 82px 82px #e6e6e6, 83px 83px #e6e6e6, 84px 84px #e6e6e6, 85px 85px #e6e6e6; }
+  .btn-longshadow.btn-color-2:active, .palette-primary .button-secondary.btn-longshadow:active, .palette-primary .woocommerce .alt.button.btn-longshadow:active, .btn-longshadow-right.btn-color-2:active, .palette-primary .button-secondary.btn-longshadow-right:active, .palette-primary .woocommerce .alt.button.btn-longshadow-right:active, .btn-longshadow.btn-color-2.active, .palette-primary .button-secondary.btn-longshadow.active, .palette-primary .woocommerce .alt.button.btn-longshadow.active, .btn-longshadow-right.btn-color-2.active, .palette-primary .button-secondary.btn-longshadow-right.active, .palette-primary .woocommerce .alt.button.btn-longshadow-right.active, .btn-longshadow.btn-color-2.is-active, .palette-primary .button-secondary.btn-longshadow.is-active, .palette-primary .woocommerce .alt.button.btn-longshadow.is-active, .btn-longshadow-right.btn-color-2.is-active, .palette-primary .button-secondary.btn-longshadow-right.is-active, .palette-primary .woocommerce .alt.button.btn-longshadow-right.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
   .btn-longshadow.btn-color-3, .btn-longshadow-right.btn-color-3 {
-    text-shadow: 0px 0px #47788e, 1px 1px #47788e, 2px 2px #47788e, 3px 3px #47788e, 4px 4px #47788e, 5px 5px #47788e, 6px 6px #47788e, 7px 7px #47788e, 8px 8px #47788e, 9px 9px #47788e, 10px 10px #47788e, 11px 11px #47788e, 12px 12px #47788e, 13px 13px #47788e, 14px 14px #47788e, 15px 15px #47788e, 16px 16px #47788e, 17px 17px #47788e, 18px 18px #47788e, 19px 19px #47788e, 20px 20px #47788e, 21px 21px #47788e, 22px 22px #47788e, 23px 23px #47788e, 24px 24px #47788e, 25px 25px #47788e, 26px 26px #47788e, 27px 27px #47788e, 28px 28px #47788e, 29px 29px #47788e, 30px 30px #47788e, 31px 31px #47788e, 32px 32px #47788e, 33px 33px #47788e, 34px 34px #47788e, 35px 35px #47788e, 36px 36px #47788e, 37px 37px #47788e, 38px 38px #47788e, 39px 39px #47788e, 40px 40px #47788e, 41px 41px #47788e, 42px 42px #47788e, 43px 43px #47788e, 44px 44px #47788e, 45px 45px #47788e, 46px 46px #47788e, 47px 47px #47788e, 48px 48px #47788e, 49px 49px #47788e, 50px 50px #47788e, 51px 51px #47788e, 52px 52px #47788e, 53px 53px #47788e, 54px 54px #47788e, 55px 55px #47788e, 56px 56px #47788e, 57px 57px #47788e, 58px 58px #47788e, 59px 59px #47788e, 60px 60px #47788e, 61px 61px #47788e, 62px 62px #47788e, 63px 63px #47788e, 64px 64px #47788e, 65px 65px #47788e, 66px 66px #47788e, 67px 67px #47788e, 68px 68px #47788e, 69px 69px #47788e, 70px 70px #47788e, 71px 71px #47788e, 72px 72px #47788e, 73px 73px #47788e, 74px 74px #47788e, 75px 75px #47788e, 76px 76px #47788e, 77px 77px #47788e, 78px 78px #47788e, 79px 79px #47788e, 80px 80px #47788e, 81px 81px #47788e, 82px 82px #47788e, 83px 83px #47788e, 84px 84px #47788e, 85px 85px #47788e; }
+    text-shadow: 0px 0px #763555, 1px 1px #763555, 2px 2px #763555, 3px 3px #763555, 4px 4px #763555, 5px 5px #763555, 6px 6px #763555, 7px 7px #763555, 8px 8px #763555, 9px 9px #763555, 10px 10px #763555, 11px 11px #763555, 12px 12px #763555, 13px 13px #763555, 14px 14px #763555, 15px 15px #763555, 16px 16px #763555, 17px 17px #763555, 18px 18px #763555, 19px 19px #763555, 20px 20px #763555, 21px 21px #763555, 22px 22px #763555, 23px 23px #763555, 24px 24px #763555, 25px 25px #763555, 26px 26px #763555, 27px 27px #763555, 28px 28px #763555, 29px 29px #763555, 30px 30px #763555, 31px 31px #763555, 32px 32px #763555, 33px 33px #763555, 34px 34px #763555, 35px 35px #763555, 36px 36px #763555, 37px 37px #763555, 38px 38px #763555, 39px 39px #763555, 40px 40px #763555, 41px 41px #763555, 42px 42px #763555, 43px 43px #763555, 44px 44px #763555, 45px 45px #763555, 46px 46px #763555, 47px 47px #763555, 48px 48px #763555, 49px 49px #763555, 50px 50px #763555, 51px 51px #763555, 52px 52px #763555, 53px 53px #763555, 54px 54px #763555, 55px 55px #763555, 56px 56px #763555, 57px 57px #763555, 58px 58px #763555, 59px 59px #763555, 60px 60px #763555, 61px 61px #763555, 62px 62px #763555, 63px 63px #763555, 64px 64px #763555, 65px 65px #763555, 66px 66px #763555, 67px 67px #763555, 68px 68px #763555, 69px 69px #763555, 70px 70px #763555, 71px 71px #763555, 72px 72px #763555, 73px 73px #763555, 74px 74px #763555, 75px 75px #763555, 76px 76px #763555, 77px 77px #763555, 78px 78px #763555, 79px 79px #763555, 80px 80px #763555, 81px 81px #763555, 82px 82px #763555, 83px 83px #763555, 84px 84px #763555, 85px 85px #763555; }
   .btn-longshadow.btn-color-3:active, .btn-longshadow-right.btn-color-3:active, .btn-longshadow.btn-color-3.active, .btn-longshadow-right.btn-color-3.active, .btn-longshadow.btn-color-3.is-active, .btn-longshadow-right.btn-color-3.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
   .btn-longshadow.btn-color-4, .btn-longshadow-right.btn-color-4 {
-    text-shadow: 0px 0px #913939, 1px 1px #913939, 2px 2px #913939, 3px 3px #913939, 4px 4px #913939, 5px 5px #913939, 6px 6px #913939, 7px 7px #913939, 8px 8px #913939, 9px 9px #913939, 10px 10px #913939, 11px 11px #913939, 12px 12px #913939, 13px 13px #913939, 14px 14px #913939, 15px 15px #913939, 16px 16px #913939, 17px 17px #913939, 18px 18px #913939, 19px 19px #913939, 20px 20px #913939, 21px 21px #913939, 22px 22px #913939, 23px 23px #913939, 24px 24px #913939, 25px 25px #913939, 26px 26px #913939, 27px 27px #913939, 28px 28px #913939, 29px 29px #913939, 30px 30px #913939, 31px 31px #913939, 32px 32px #913939, 33px 33px #913939, 34px 34px #913939, 35px 35px #913939, 36px 36px #913939, 37px 37px #913939, 38px 38px #913939, 39px 39px #913939, 40px 40px #913939, 41px 41px #913939, 42px 42px #913939, 43px 43px #913939, 44px 44px #913939, 45px 45px #913939, 46px 46px #913939, 47px 47px #913939, 48px 48px #913939, 49px 49px #913939, 50px 50px #913939, 51px 51px #913939, 52px 52px #913939, 53px 53px #913939, 54px 54px #913939, 55px 55px #913939, 56px 56px #913939, 57px 57px #913939, 58px 58px #913939, 59px 59px #913939, 60px 60px #913939, 61px 61px #913939, 62px 62px #913939, 63px 63px #913939, 64px 64px #913939, 65px 65px #913939, 66px 66px #913939, 67px 67px #913939, 68px 68px #913939, 69px 69px #913939, 70px 70px #913939, 71px 71px #913939, 72px 72px #913939, 73px 73px #913939, 74px 74px #913939, 75px 75px #913939, 76px 76px #913939, 77px 77px #913939, 78px 78px #913939, 79px 79px #913939, 80px 80px #913939, 81px 81px #913939, 82px 82px #913939, 83px 83px #913939, 84px 84px #913939, 85px 85px #913939; }
+    text-shadow: 0px 0px #e6e6e6, 1px 1px #e6e6e6, 2px 2px #e6e6e6, 3px 3px #e6e6e6, 4px 4px #e6e6e6, 5px 5px #e6e6e6, 6px 6px #e6e6e6, 7px 7px #e6e6e6, 8px 8px #e6e6e6, 9px 9px #e6e6e6, 10px 10px #e6e6e6, 11px 11px #e6e6e6, 12px 12px #e6e6e6, 13px 13px #e6e6e6, 14px 14px #e6e6e6, 15px 15px #e6e6e6, 16px 16px #e6e6e6, 17px 17px #e6e6e6, 18px 18px #e6e6e6, 19px 19px #e6e6e6, 20px 20px #e6e6e6, 21px 21px #e6e6e6, 22px 22px #e6e6e6, 23px 23px #e6e6e6, 24px 24px #e6e6e6, 25px 25px #e6e6e6, 26px 26px #e6e6e6, 27px 27px #e6e6e6, 28px 28px #e6e6e6, 29px 29px #e6e6e6, 30px 30px #e6e6e6, 31px 31px #e6e6e6, 32px 32px #e6e6e6, 33px 33px #e6e6e6, 34px 34px #e6e6e6, 35px 35px #e6e6e6, 36px 36px #e6e6e6, 37px 37px #e6e6e6, 38px 38px #e6e6e6, 39px 39px #e6e6e6, 40px 40px #e6e6e6, 41px 41px #e6e6e6, 42px 42px #e6e6e6, 43px 43px #e6e6e6, 44px 44px #e6e6e6, 45px 45px #e6e6e6, 46px 46px #e6e6e6, 47px 47px #e6e6e6, 48px 48px #e6e6e6, 49px 49px #e6e6e6, 50px 50px #e6e6e6, 51px 51px #e6e6e6, 52px 52px #e6e6e6, 53px 53px #e6e6e6, 54px 54px #e6e6e6, 55px 55px #e6e6e6, 56px 56px #e6e6e6, 57px 57px #e6e6e6, 58px 58px #e6e6e6, 59px 59px #e6e6e6, 60px 60px #e6e6e6, 61px 61px #e6e6e6, 62px 62px #e6e6e6, 63px 63px #e6e6e6, 64px 64px #e6e6e6, 65px 65px #e6e6e6, 66px 66px #e6e6e6, 67px 67px #e6e6e6, 68px 68px #e6e6e6, 69px 69px #e6e6e6, 70px 70px #e6e6e6, 71px 71px #e6e6e6, 72px 72px #e6e6e6, 73px 73px #e6e6e6, 74px 74px #e6e6e6, 75px 75px #e6e6e6, 76px 76px #e6e6e6, 77px 77px #e6e6e6, 78px 78px #e6e6e6, 79px 79px #e6e6e6, 80px 80px #e6e6e6, 81px 81px #e6e6e6, 82px 82px #e6e6e6, 83px 83px #e6e6e6, 84px 84px #e6e6e6, 85px 85px #e6e6e6; }
   .btn-longshadow.btn-color-4:active, .btn-longshadow-right.btn-color-4:active, .btn-longshadow.btn-color-4.active, .btn-longshadow-right.btn-color-4.active, .btn-longshadow.btn-color-4.is-active, .btn-longshadow-right.btn-color-4.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
   .btn-longshadow.btn-color-5, .btn-longshadow-right.btn-color-5 {
-    text-shadow: 0px 0px #171c20, 1px 1px #171c20, 2px 2px #171c20, 3px 3px #171c20, 4px 4px #171c20, 5px 5px #171c20, 6px 6px #171c20, 7px 7px #171c20, 8px 8px #171c20, 9px 9px #171c20, 10px 10px #171c20, 11px 11px #171c20, 12px 12px #171c20, 13px 13px #171c20, 14px 14px #171c20, 15px 15px #171c20, 16px 16px #171c20, 17px 17px #171c20, 18px 18px #171c20, 19px 19px #171c20, 20px 20px #171c20, 21px 21px #171c20, 22px 22px #171c20, 23px 23px #171c20, 24px 24px #171c20, 25px 25px #171c20, 26px 26px #171c20, 27px 27px #171c20, 28px 28px #171c20, 29px 29px #171c20, 30px 30px #171c20, 31px 31px #171c20, 32px 32px #171c20, 33px 33px #171c20, 34px 34px #171c20, 35px 35px #171c20, 36px 36px #171c20, 37px 37px #171c20, 38px 38px #171c20, 39px 39px #171c20, 40px 40px #171c20, 41px 41px #171c20, 42px 42px #171c20, 43px 43px #171c20, 44px 44px #171c20, 45px 45px #171c20, 46px 46px #171c20, 47px 47px #171c20, 48px 48px #171c20, 49px 49px #171c20, 50px 50px #171c20, 51px 51px #171c20, 52px 52px #171c20, 53px 53px #171c20, 54px 54px #171c20, 55px 55px #171c20, 56px 56px #171c20, 57px 57px #171c20, 58px 58px #171c20, 59px 59px #171c20, 60px 60px #171c20, 61px 61px #171c20, 62px 62px #171c20, 63px 63px #171c20, 64px 64px #171c20, 65px 65px #171c20, 66px 66px #171c20, 67px 67px #171c20, 68px 68px #171c20, 69px 69px #171c20, 70px 70px #171c20, 71px 71px #171c20, 72px 72px #171c20, 73px 73px #171c20, 74px 74px #171c20, 75px 75px #171c20, 76px 76px #171c20, 77px 77px #171c20, 78px 78px #171c20, 79px 79px #171c20, 80px 80px #171c20, 81px 81px #171c20, 82px 82px #171c20, 83px 83px #171c20, 84px 84px #171c20, 85px 85px #171c20; }
+    text-shadow: 0px 0px #1c1c1c, 1px 1px #1c1c1c, 2px 2px #1c1c1c, 3px 3px #1c1c1c, 4px 4px #1c1c1c, 5px 5px #1c1c1c, 6px 6px #1c1c1c, 7px 7px #1c1c1c, 8px 8px #1c1c1c, 9px 9px #1c1c1c, 10px 10px #1c1c1c, 11px 11px #1c1c1c, 12px 12px #1c1c1c, 13px 13px #1c1c1c, 14px 14px #1c1c1c, 15px 15px #1c1c1c, 16px 16px #1c1c1c, 17px 17px #1c1c1c, 18px 18px #1c1c1c, 19px 19px #1c1c1c, 20px 20px #1c1c1c, 21px 21px #1c1c1c, 22px 22px #1c1c1c, 23px 23px #1c1c1c, 24px 24px #1c1c1c, 25px 25px #1c1c1c, 26px 26px #1c1c1c, 27px 27px #1c1c1c, 28px 28px #1c1c1c, 29px 29px #1c1c1c, 30px 30px #1c1c1c, 31px 31px #1c1c1c, 32px 32px #1c1c1c, 33px 33px #1c1c1c, 34px 34px #1c1c1c, 35px 35px #1c1c1c, 36px 36px #1c1c1c, 37px 37px #1c1c1c, 38px 38px #1c1c1c, 39px 39px #1c1c1c, 40px 40px #1c1c1c, 41px 41px #1c1c1c, 42px 42px #1c1c1c, 43px 43px #1c1c1c, 44px 44px #1c1c1c, 45px 45px #1c1c1c, 46px 46px #1c1c1c, 47px 47px #1c1c1c, 48px 48px #1c1c1c, 49px 49px #1c1c1c, 50px 50px #1c1c1c, 51px 51px #1c1c1c, 52px 52px #1c1c1c, 53px 53px #1c1c1c, 54px 54px #1c1c1c, 55px 55px #1c1c1c, 56px 56px #1c1c1c, 57px 57px #1c1c1c, 58px 58px #1c1c1c, 59px 59px #1c1c1c, 60px 60px #1c1c1c, 61px 61px #1c1c1c, 62px 62px #1c1c1c, 63px 63px #1c1c1c, 64px 64px #1c1c1c, 65px 65px #1c1c1c, 66px 66px #1c1c1c, 67px 67px #1c1c1c, 68px 68px #1c1c1c, 69px 69px #1c1c1c, 70px 70px #1c1c1c, 71px 71px #1c1c1c, 72px 72px #1c1c1c, 73px 73px #1c1c1c, 74px 74px #1c1c1c, 75px 75px #1c1c1c, 76px 76px #1c1c1c, 77px 77px #1c1c1c, 78px 78px #1c1c1c, 79px 79px #1c1c1c, 80px 80px #1c1c1c, 81px 81px #1c1c1c, 82px 82px #1c1c1c, 83px 83px #1c1c1c, 84px 84px #1c1c1c, 85px 85px #1c1c1c; }
   .btn-longshadow.btn-color-5:active, .btn-longshadow-right.btn-color-5:active, .btn-longshadow.btn-color-5.active, .btn-longshadow-right.btn-color-5.active, .btn-longshadow.btn-color-5.is-active, .btn-longshadow-right.btn-color-5.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
   .btn-longshadow.btn-neutral-color, .btn-longshadow-right.btn-neutral-color {
-    text-shadow: 0px 0px #171c20, 1px 1px #171c20, 2px 2px #171c20, 3px 3px #171c20, 4px 4px #171c20, 5px 5px #171c20, 6px 6px #171c20, 7px 7px #171c20, 8px 8px #171c20, 9px 9px #171c20, 10px 10px #171c20, 11px 11px #171c20, 12px 12px #171c20, 13px 13px #171c20, 14px 14px #171c20, 15px 15px #171c20, 16px 16px #171c20, 17px 17px #171c20, 18px 18px #171c20, 19px 19px #171c20, 20px 20px #171c20, 21px 21px #171c20, 22px 22px #171c20, 23px 23px #171c20, 24px 24px #171c20, 25px 25px #171c20, 26px 26px #171c20, 27px 27px #171c20, 28px 28px #171c20, 29px 29px #171c20, 30px 30px #171c20, 31px 31px #171c20, 32px 32px #171c20, 33px 33px #171c20, 34px 34px #171c20, 35px 35px #171c20, 36px 36px #171c20, 37px 37px #171c20, 38px 38px #171c20, 39px 39px #171c20, 40px 40px #171c20, 41px 41px #171c20, 42px 42px #171c20, 43px 43px #171c20, 44px 44px #171c20, 45px 45px #171c20, 46px 46px #171c20, 47px 47px #171c20, 48px 48px #171c20, 49px 49px #171c20, 50px 50px #171c20, 51px 51px #171c20, 52px 52px #171c20, 53px 53px #171c20, 54px 54px #171c20, 55px 55px #171c20, 56px 56px #171c20, 57px 57px #171c20, 58px 58px #171c20, 59px 59px #171c20, 60px 60px #171c20, 61px 61px #171c20, 62px 62px #171c20, 63px 63px #171c20, 64px 64px #171c20, 65px 65px #171c20, 66px 66px #171c20, 67px 67px #171c20, 68px 68px #171c20, 69px 69px #171c20, 70px 70px #171c20, 71px 71px #171c20, 72px 72px #171c20, 73px 73px #171c20, 74px 74px #171c20, 75px 75px #171c20, 76px 76px #171c20, 77px 77px #171c20, 78px 78px #171c20, 79px 79px #171c20, 80px 80px #171c20, 81px 81px #171c20, 82px 82px #171c20, 83px 83px #171c20, 84px 84px #171c20, 85px 85px #171c20; }
+    text-shadow: 0px 0px #1c1c1c, 1px 1px #1c1c1c, 2px 2px #1c1c1c, 3px 3px #1c1c1c, 4px 4px #1c1c1c, 5px 5px #1c1c1c, 6px 6px #1c1c1c, 7px 7px #1c1c1c, 8px 8px #1c1c1c, 9px 9px #1c1c1c, 10px 10px #1c1c1c, 11px 11px #1c1c1c, 12px 12px #1c1c1c, 13px 13px #1c1c1c, 14px 14px #1c1c1c, 15px 15px #1c1c1c, 16px 16px #1c1c1c, 17px 17px #1c1c1c, 18px 18px #1c1c1c, 19px 19px #1c1c1c, 20px 20px #1c1c1c, 21px 21px #1c1c1c, 22px 22px #1c1c1c, 23px 23px #1c1c1c, 24px 24px #1c1c1c, 25px 25px #1c1c1c, 26px 26px #1c1c1c, 27px 27px #1c1c1c, 28px 28px #1c1c1c, 29px 29px #1c1c1c, 30px 30px #1c1c1c, 31px 31px #1c1c1c, 32px 32px #1c1c1c, 33px 33px #1c1c1c, 34px 34px #1c1c1c, 35px 35px #1c1c1c, 36px 36px #1c1c1c, 37px 37px #1c1c1c, 38px 38px #1c1c1c, 39px 39px #1c1c1c, 40px 40px #1c1c1c, 41px 41px #1c1c1c, 42px 42px #1c1c1c, 43px 43px #1c1c1c, 44px 44px #1c1c1c, 45px 45px #1c1c1c, 46px 46px #1c1c1c, 47px 47px #1c1c1c, 48px 48px #1c1c1c, 49px 49px #1c1c1c, 50px 50px #1c1c1c, 51px 51px #1c1c1c, 52px 52px #1c1c1c, 53px 53px #1c1c1c, 54px 54px #1c1c1c, 55px 55px #1c1c1c, 56px 56px #1c1c1c, 57px 57px #1c1c1c, 58px 58px #1c1c1c, 59px 59px #1c1c1c, 60px 60px #1c1c1c, 61px 61px #1c1c1c, 62px 62px #1c1c1c, 63px 63px #1c1c1c, 64px 64px #1c1c1c, 65px 65px #1c1c1c, 66px 66px #1c1c1c, 67px 67px #1c1c1c, 68px 68px #1c1c1c, 69px 69px #1c1c1c, 70px 70px #1c1c1c, 71px 71px #1c1c1c, 72px 72px #1c1c1c, 73px 73px #1c1c1c, 74px 74px #1c1c1c, 75px 75px #1c1c1c, 76px 76px #1c1c1c, 77px 77px #1c1c1c, 78px 78px #1c1c1c, 79px 79px #1c1c1c, 80px 80px #1c1c1c, 81px 81px #1c1c1c, 82px 82px #1c1c1c, 83px 83px #1c1c1c, 84px 84px #1c1c1c, 85px 85px #1c1c1c; }
   .btn-longshadow.btn-neutral-color:active, .btn-longshadow-right.btn-neutral-color:active, .btn-longshadow.btn-neutral-color.active, .btn-longshadow-right.btn-neutral-color.active, .btn-longshadow.btn-neutral-color.is-active, .btn-longshadow-right.btn-neutral-color.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
 /*
@@ -1019,28 +1019,28 @@
  */
 .btn-longshadow-left {
   overflow: hidden; }
-  .btn-longshadow-left.btn-color-1 {
-    text-shadow: 0px 0px #47788e, -1px 1px #47788e, -2px 2px #47788e, -3px 3px #47788e, -4px 4px #47788e, -5px 5px #47788e, -6px 6px #47788e, -7px 7px #47788e, -8px 8px #47788e, -9px 9px #47788e, -10px 10px #47788e, -11px 11px #47788e, -12px 12px #47788e, -13px 13px #47788e, -14px 14px #47788e, -15px 15px #47788e, -16px 16px #47788e, -17px 17px #47788e, -18px 18px #47788e, -19px 19px #47788e, -20px 20px #47788e, -21px 21px #47788e, -22px 22px #47788e, -23px 23px #47788e, -24px 24px #47788e, -25px 25px #47788e, -26px 26px #47788e, -27px 27px #47788e, -28px 28px #47788e, -29px 29px #47788e, -30px 30px #47788e, -31px 31px #47788e, -32px 32px #47788e, -33px 33px #47788e, -34px 34px #47788e, -35px 35px #47788e, -36px 36px #47788e, -37px 37px #47788e, -38px 38px #47788e, -39px 39px #47788e, -40px 40px #47788e, -41px 41px #47788e, -42px 42px #47788e, -43px 43px #47788e, -44px 44px #47788e, -45px 45px #47788e, -46px 46px #47788e, -47px 47px #47788e, -48px 48px #47788e, -49px 49px #47788e, -50px 50px #47788e, -51px 51px #47788e, -52px 52px #47788e, -53px 53px #47788e, -54px 54px #47788e, -55px 55px #47788e, -56px 56px #47788e, -57px 57px #47788e, -58px 58px #47788e, -59px 59px #47788e, -60px 60px #47788e, -61px 61px #47788e, -62px 62px #47788e, -63px 63px #47788e, -64px 64px #47788e, -65px 65px #47788e, -66px 66px #47788e, -67px 67px #47788e, -68px 68px #47788e, -69px 69px #47788e, -70px 70px #47788e, -71px 71px #47788e, -72px 72px #47788e, -73px 73px #47788e, -74px 74px #47788e, -75px 75px #47788e, -76px 76px #47788e, -77px 77px #47788e, -78px 78px #47788e, -79px 79px #47788e, -80px 80px #47788e, -81px 81px #47788e, -82px 82px #47788e, -83px 83px #47788e, -84px 84px #47788e, -85px 85px #47788e; }
-  .btn-longshadow-left.btn-color-1:active, .btn-longshadow-left.btn-color-1.active, .btn-longshadow-left.btn-color-1.is-active {
+  .btn-longshadow-left.btn-color-1, .palette-primary .button-primary.btn-longshadow-left, .palette-primary .woocommerce .button.btn-longshadow-left {
+    text-shadow: 0px 0px #763555, -1px 1px #763555, -2px 2px #763555, -3px 3px #763555, -4px 4px #763555, -5px 5px #763555, -6px 6px #763555, -7px 7px #763555, -8px 8px #763555, -9px 9px #763555, -10px 10px #763555, -11px 11px #763555, -12px 12px #763555, -13px 13px #763555, -14px 14px #763555, -15px 15px #763555, -16px 16px #763555, -17px 17px #763555, -18px 18px #763555, -19px 19px #763555, -20px 20px #763555, -21px 21px #763555, -22px 22px #763555, -23px 23px #763555, -24px 24px #763555, -25px 25px #763555, -26px 26px #763555, -27px 27px #763555, -28px 28px #763555, -29px 29px #763555, -30px 30px #763555, -31px 31px #763555, -32px 32px #763555, -33px 33px #763555, -34px 34px #763555, -35px 35px #763555, -36px 36px #763555, -37px 37px #763555, -38px 38px #763555, -39px 39px #763555, -40px 40px #763555, -41px 41px #763555, -42px 42px #763555, -43px 43px #763555, -44px 44px #763555, -45px 45px #763555, -46px 46px #763555, -47px 47px #763555, -48px 48px #763555, -49px 49px #763555, -50px 50px #763555, -51px 51px #763555, -52px 52px #763555, -53px 53px #763555, -54px 54px #763555, -55px 55px #763555, -56px 56px #763555, -57px 57px #763555, -58px 58px #763555, -59px 59px #763555, -60px 60px #763555, -61px 61px #763555, -62px 62px #763555, -63px 63px #763555, -64px 64px #763555, -65px 65px #763555, -66px 66px #763555, -67px 67px #763555, -68px 68px #763555, -69px 69px #763555, -70px 70px #763555, -71px 71px #763555, -72px 72px #763555, -73px 73px #763555, -74px 74px #763555, -75px 75px #763555, -76px 76px #763555, -77px 77px #763555, -78px 78px #763555, -79px 79px #763555, -80px 80px #763555, -81px 81px #763555, -82px 82px #763555, -83px 83px #763555, -84px 84px #763555, -85px 85px #763555; }
+  .btn-longshadow-left.btn-color-1:active, .palette-primary .button-primary.btn-longshadow-left:active, .palette-primary .woocommerce .button.btn-longshadow-left:active, .btn-longshadow-left.btn-color-1.active, .palette-primary .button-primary.btn-longshadow-left.active, .palette-primary .woocommerce .button.btn-longshadow-left.active, .btn-longshadow-left.btn-color-1.is-active, .palette-primary .button-primary.btn-longshadow-left.is-active, .palette-primary .woocommerce .button.btn-longshadow-left.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
-  .btn-longshadow-left.btn-color-2 {
-    text-shadow: 0px 0px #913939, -1px 1px #913939, -2px 2px #913939, -3px 3px #913939, -4px 4px #913939, -5px 5px #913939, -6px 6px #913939, -7px 7px #913939, -8px 8px #913939, -9px 9px #913939, -10px 10px #913939, -11px 11px #913939, -12px 12px #913939, -13px 13px #913939, -14px 14px #913939, -15px 15px #913939, -16px 16px #913939, -17px 17px #913939, -18px 18px #913939, -19px 19px #913939, -20px 20px #913939, -21px 21px #913939, -22px 22px #913939, -23px 23px #913939, -24px 24px #913939, -25px 25px #913939, -26px 26px #913939, -27px 27px #913939, -28px 28px #913939, -29px 29px #913939, -30px 30px #913939, -31px 31px #913939, -32px 32px #913939, -33px 33px #913939, -34px 34px #913939, -35px 35px #913939, -36px 36px #913939, -37px 37px #913939, -38px 38px #913939, -39px 39px #913939, -40px 40px #913939, -41px 41px #913939, -42px 42px #913939, -43px 43px #913939, -44px 44px #913939, -45px 45px #913939, -46px 46px #913939, -47px 47px #913939, -48px 48px #913939, -49px 49px #913939, -50px 50px #913939, -51px 51px #913939, -52px 52px #913939, -53px 53px #913939, -54px 54px #913939, -55px 55px #913939, -56px 56px #913939, -57px 57px #913939, -58px 58px #913939, -59px 59px #913939, -60px 60px #913939, -61px 61px #913939, -62px 62px #913939, -63px 63px #913939, -64px 64px #913939, -65px 65px #913939, -66px 66px #913939, -67px 67px #913939, -68px 68px #913939, -69px 69px #913939, -70px 70px #913939, -71px 71px #913939, -72px 72px #913939, -73px 73px #913939, -74px 74px #913939, -75px 75px #913939, -76px 76px #913939, -77px 77px #913939, -78px 78px #913939, -79px 79px #913939, -80px 80px #913939, -81px 81px #913939, -82px 82px #913939, -83px 83px #913939, -84px 84px #913939, -85px 85px #913939; }
-  .btn-longshadow-left.btn-color-2:active, .btn-longshadow-left.btn-color-2.active, .btn-longshadow-left.btn-color-2.is-active {
+  .btn-longshadow-left.btn-color-2, .palette-primary .button-secondary.btn-longshadow-left, .palette-primary .woocommerce .alt.button.btn-longshadow-left {
+    text-shadow: 0px 0px #e6e6e6, -1px 1px #e6e6e6, -2px 2px #e6e6e6, -3px 3px #e6e6e6, -4px 4px #e6e6e6, -5px 5px #e6e6e6, -6px 6px #e6e6e6, -7px 7px #e6e6e6, -8px 8px #e6e6e6, -9px 9px #e6e6e6, -10px 10px #e6e6e6, -11px 11px #e6e6e6, -12px 12px #e6e6e6, -13px 13px #e6e6e6, -14px 14px #e6e6e6, -15px 15px #e6e6e6, -16px 16px #e6e6e6, -17px 17px #e6e6e6, -18px 18px #e6e6e6, -19px 19px #e6e6e6, -20px 20px #e6e6e6, -21px 21px #e6e6e6, -22px 22px #e6e6e6, -23px 23px #e6e6e6, -24px 24px #e6e6e6, -25px 25px #e6e6e6, -26px 26px #e6e6e6, -27px 27px #e6e6e6, -28px 28px #e6e6e6, -29px 29px #e6e6e6, -30px 30px #e6e6e6, -31px 31px #e6e6e6, -32px 32px #e6e6e6, -33px 33px #e6e6e6, -34px 34px #e6e6e6, -35px 35px #e6e6e6, -36px 36px #e6e6e6, -37px 37px #e6e6e6, -38px 38px #e6e6e6, -39px 39px #e6e6e6, -40px 40px #e6e6e6, -41px 41px #e6e6e6, -42px 42px #e6e6e6, -43px 43px #e6e6e6, -44px 44px #e6e6e6, -45px 45px #e6e6e6, -46px 46px #e6e6e6, -47px 47px #e6e6e6, -48px 48px #e6e6e6, -49px 49px #e6e6e6, -50px 50px #e6e6e6, -51px 51px #e6e6e6, -52px 52px #e6e6e6, -53px 53px #e6e6e6, -54px 54px #e6e6e6, -55px 55px #e6e6e6, -56px 56px #e6e6e6, -57px 57px #e6e6e6, -58px 58px #e6e6e6, -59px 59px #e6e6e6, -60px 60px #e6e6e6, -61px 61px #e6e6e6, -62px 62px #e6e6e6, -63px 63px #e6e6e6, -64px 64px #e6e6e6, -65px 65px #e6e6e6, -66px 66px #e6e6e6, -67px 67px #e6e6e6, -68px 68px #e6e6e6, -69px 69px #e6e6e6, -70px 70px #e6e6e6, -71px 71px #e6e6e6, -72px 72px #e6e6e6, -73px 73px #e6e6e6, -74px 74px #e6e6e6, -75px 75px #e6e6e6, -76px 76px #e6e6e6, -77px 77px #e6e6e6, -78px 78px #e6e6e6, -79px 79px #e6e6e6, -80px 80px #e6e6e6, -81px 81px #e6e6e6, -82px 82px #e6e6e6, -83px 83px #e6e6e6, -84px 84px #e6e6e6, -85px 85px #e6e6e6; }
+  .btn-longshadow-left.btn-color-2:active, .palette-primary .button-secondary.btn-longshadow-left:active, .palette-primary .woocommerce .alt.button.btn-longshadow-left:active, .btn-longshadow-left.btn-color-2.active, .palette-primary .button-secondary.btn-longshadow-left.active, .palette-primary .woocommerce .alt.button.btn-longshadow-left.active, .btn-longshadow-left.btn-color-2.is-active, .palette-primary .button-secondary.btn-longshadow-left.is-active, .palette-primary .woocommerce .alt.button.btn-longshadow-left.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
   .btn-longshadow-left.btn-color-3 {
-    text-shadow: 0px 0px #47788e, -1px 1px #47788e, -2px 2px #47788e, -3px 3px #47788e, -4px 4px #47788e, -5px 5px #47788e, -6px 6px #47788e, -7px 7px #47788e, -8px 8px #47788e, -9px 9px #47788e, -10px 10px #47788e, -11px 11px #47788e, -12px 12px #47788e, -13px 13px #47788e, -14px 14px #47788e, -15px 15px #47788e, -16px 16px #47788e, -17px 17px #47788e, -18px 18px #47788e, -19px 19px #47788e, -20px 20px #47788e, -21px 21px #47788e, -22px 22px #47788e, -23px 23px #47788e, -24px 24px #47788e, -25px 25px #47788e, -26px 26px #47788e, -27px 27px #47788e, -28px 28px #47788e, -29px 29px #47788e, -30px 30px #47788e, -31px 31px #47788e, -32px 32px #47788e, -33px 33px #47788e, -34px 34px #47788e, -35px 35px #47788e, -36px 36px #47788e, -37px 37px #47788e, -38px 38px #47788e, -39px 39px #47788e, -40px 40px #47788e, -41px 41px #47788e, -42px 42px #47788e, -43px 43px #47788e, -44px 44px #47788e, -45px 45px #47788e, -46px 46px #47788e, -47px 47px #47788e, -48px 48px #47788e, -49px 49px #47788e, -50px 50px #47788e, -51px 51px #47788e, -52px 52px #47788e, -53px 53px #47788e, -54px 54px #47788e, -55px 55px #47788e, -56px 56px #47788e, -57px 57px #47788e, -58px 58px #47788e, -59px 59px #47788e, -60px 60px #47788e, -61px 61px #47788e, -62px 62px #47788e, -63px 63px #47788e, -64px 64px #47788e, -65px 65px #47788e, -66px 66px #47788e, -67px 67px #47788e, -68px 68px #47788e, -69px 69px #47788e, -70px 70px #47788e, -71px 71px #47788e, -72px 72px #47788e, -73px 73px #47788e, -74px 74px #47788e, -75px 75px #47788e, -76px 76px #47788e, -77px 77px #47788e, -78px 78px #47788e, -79px 79px #47788e, -80px 80px #47788e, -81px 81px #47788e, -82px 82px #47788e, -83px 83px #47788e, -84px 84px #47788e, -85px 85px #47788e; }
+    text-shadow: 0px 0px #763555, -1px 1px #763555, -2px 2px #763555, -3px 3px #763555, -4px 4px #763555, -5px 5px #763555, -6px 6px #763555, -7px 7px #763555, -8px 8px #763555, -9px 9px #763555, -10px 10px #763555, -11px 11px #763555, -12px 12px #763555, -13px 13px #763555, -14px 14px #763555, -15px 15px #763555, -16px 16px #763555, -17px 17px #763555, -18px 18px #763555, -19px 19px #763555, -20px 20px #763555, -21px 21px #763555, -22px 22px #763555, -23px 23px #763555, -24px 24px #763555, -25px 25px #763555, -26px 26px #763555, -27px 27px #763555, -28px 28px #763555, -29px 29px #763555, -30px 30px #763555, -31px 31px #763555, -32px 32px #763555, -33px 33px #763555, -34px 34px #763555, -35px 35px #763555, -36px 36px #763555, -37px 37px #763555, -38px 38px #763555, -39px 39px #763555, -40px 40px #763555, -41px 41px #763555, -42px 42px #763555, -43px 43px #763555, -44px 44px #763555, -45px 45px #763555, -46px 46px #763555, -47px 47px #763555, -48px 48px #763555, -49px 49px #763555, -50px 50px #763555, -51px 51px #763555, -52px 52px #763555, -53px 53px #763555, -54px 54px #763555, -55px 55px #763555, -56px 56px #763555, -57px 57px #763555, -58px 58px #763555, -59px 59px #763555, -60px 60px #763555, -61px 61px #763555, -62px 62px #763555, -63px 63px #763555, -64px 64px #763555, -65px 65px #763555, -66px 66px #763555, -67px 67px #763555, -68px 68px #763555, -69px 69px #763555, -70px 70px #763555, -71px 71px #763555, -72px 72px #763555, -73px 73px #763555, -74px 74px #763555, -75px 75px #763555, -76px 76px #763555, -77px 77px #763555, -78px 78px #763555, -79px 79px #763555, -80px 80px #763555, -81px 81px #763555, -82px 82px #763555, -83px 83px #763555, -84px 84px #763555, -85px 85px #763555; }
   .btn-longshadow-left.btn-color-3:active, .btn-longshadow-left.btn-color-3.active, .btn-longshadow-left.btn-color-3.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
   .btn-longshadow-left.btn-color-4 {
-    text-shadow: 0px 0px #913939, -1px 1px #913939, -2px 2px #913939, -3px 3px #913939, -4px 4px #913939, -5px 5px #913939, -6px 6px #913939, -7px 7px #913939, -8px 8px #913939, -9px 9px #913939, -10px 10px #913939, -11px 11px #913939, -12px 12px #913939, -13px 13px #913939, -14px 14px #913939, -15px 15px #913939, -16px 16px #913939, -17px 17px #913939, -18px 18px #913939, -19px 19px #913939, -20px 20px #913939, -21px 21px #913939, -22px 22px #913939, -23px 23px #913939, -24px 24px #913939, -25px 25px #913939, -26px 26px #913939, -27px 27px #913939, -28px 28px #913939, -29px 29px #913939, -30px 30px #913939, -31px 31px #913939, -32px 32px #913939, -33px 33px #913939, -34px 34px #913939, -35px 35px #913939, -36px 36px #913939, -37px 37px #913939, -38px 38px #913939, -39px 39px #913939, -40px 40px #913939, -41px 41px #913939, -42px 42px #913939, -43px 43px #913939, -44px 44px #913939, -45px 45px #913939, -46px 46px #913939, -47px 47px #913939, -48px 48px #913939, -49px 49px #913939, -50px 50px #913939, -51px 51px #913939, -52px 52px #913939, -53px 53px #913939, -54px 54px #913939, -55px 55px #913939, -56px 56px #913939, -57px 57px #913939, -58px 58px #913939, -59px 59px #913939, -60px 60px #913939, -61px 61px #913939, -62px 62px #913939, -63px 63px #913939, -64px 64px #913939, -65px 65px #913939, -66px 66px #913939, -67px 67px #913939, -68px 68px #913939, -69px 69px #913939, -70px 70px #913939, -71px 71px #913939, -72px 72px #913939, -73px 73px #913939, -74px 74px #913939, -75px 75px #913939, -76px 76px #913939, -77px 77px #913939, -78px 78px #913939, -79px 79px #913939, -80px 80px #913939, -81px 81px #913939, -82px 82px #913939, -83px 83px #913939, -84px 84px #913939, -85px 85px #913939; }
+    text-shadow: 0px 0px #e6e6e6, -1px 1px #e6e6e6, -2px 2px #e6e6e6, -3px 3px #e6e6e6, -4px 4px #e6e6e6, -5px 5px #e6e6e6, -6px 6px #e6e6e6, -7px 7px #e6e6e6, -8px 8px #e6e6e6, -9px 9px #e6e6e6, -10px 10px #e6e6e6, -11px 11px #e6e6e6, -12px 12px #e6e6e6, -13px 13px #e6e6e6, -14px 14px #e6e6e6, -15px 15px #e6e6e6, -16px 16px #e6e6e6, -17px 17px #e6e6e6, -18px 18px #e6e6e6, -19px 19px #e6e6e6, -20px 20px #e6e6e6, -21px 21px #e6e6e6, -22px 22px #e6e6e6, -23px 23px #e6e6e6, -24px 24px #e6e6e6, -25px 25px #e6e6e6, -26px 26px #e6e6e6, -27px 27px #e6e6e6, -28px 28px #e6e6e6, -29px 29px #e6e6e6, -30px 30px #e6e6e6, -31px 31px #e6e6e6, -32px 32px #e6e6e6, -33px 33px #e6e6e6, -34px 34px #e6e6e6, -35px 35px #e6e6e6, -36px 36px #e6e6e6, -37px 37px #e6e6e6, -38px 38px #e6e6e6, -39px 39px #e6e6e6, -40px 40px #e6e6e6, -41px 41px #e6e6e6, -42px 42px #e6e6e6, -43px 43px #e6e6e6, -44px 44px #e6e6e6, -45px 45px #e6e6e6, -46px 46px #e6e6e6, -47px 47px #e6e6e6, -48px 48px #e6e6e6, -49px 49px #e6e6e6, -50px 50px #e6e6e6, -51px 51px #e6e6e6, -52px 52px #e6e6e6, -53px 53px #e6e6e6, -54px 54px #e6e6e6, -55px 55px #e6e6e6, -56px 56px #e6e6e6, -57px 57px #e6e6e6, -58px 58px #e6e6e6, -59px 59px #e6e6e6, -60px 60px #e6e6e6, -61px 61px #e6e6e6, -62px 62px #e6e6e6, -63px 63px #e6e6e6, -64px 64px #e6e6e6, -65px 65px #e6e6e6, -66px 66px #e6e6e6, -67px 67px #e6e6e6, -68px 68px #e6e6e6, -69px 69px #e6e6e6, -70px 70px #e6e6e6, -71px 71px #e6e6e6, -72px 72px #e6e6e6, -73px 73px #e6e6e6, -74px 74px #e6e6e6, -75px 75px #e6e6e6, -76px 76px #e6e6e6, -77px 77px #e6e6e6, -78px 78px #e6e6e6, -79px 79px #e6e6e6, -80px 80px #e6e6e6, -81px 81px #e6e6e6, -82px 82px #e6e6e6, -83px 83px #e6e6e6, -84px 84px #e6e6e6, -85px 85px #e6e6e6; }
   .btn-longshadow-left.btn-color-4:active, .btn-longshadow-left.btn-color-4.active, .btn-longshadow-left.btn-color-4.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
   .btn-longshadow-left.btn-color-5 {
-    text-shadow: 0px 0px #171c20, -1px 1px #171c20, -2px 2px #171c20, -3px 3px #171c20, -4px 4px #171c20, -5px 5px #171c20, -6px 6px #171c20, -7px 7px #171c20, -8px 8px #171c20, -9px 9px #171c20, -10px 10px #171c20, -11px 11px #171c20, -12px 12px #171c20, -13px 13px #171c20, -14px 14px #171c20, -15px 15px #171c20, -16px 16px #171c20, -17px 17px #171c20, -18px 18px #171c20, -19px 19px #171c20, -20px 20px #171c20, -21px 21px #171c20, -22px 22px #171c20, -23px 23px #171c20, -24px 24px #171c20, -25px 25px #171c20, -26px 26px #171c20, -27px 27px #171c20, -28px 28px #171c20, -29px 29px #171c20, -30px 30px #171c20, -31px 31px #171c20, -32px 32px #171c20, -33px 33px #171c20, -34px 34px #171c20, -35px 35px #171c20, -36px 36px #171c20, -37px 37px #171c20, -38px 38px #171c20, -39px 39px #171c20, -40px 40px #171c20, -41px 41px #171c20, -42px 42px #171c20, -43px 43px #171c20, -44px 44px #171c20, -45px 45px #171c20, -46px 46px #171c20, -47px 47px #171c20, -48px 48px #171c20, -49px 49px #171c20, -50px 50px #171c20, -51px 51px #171c20, -52px 52px #171c20, -53px 53px #171c20, -54px 54px #171c20, -55px 55px #171c20, -56px 56px #171c20, -57px 57px #171c20, -58px 58px #171c20, -59px 59px #171c20, -60px 60px #171c20, -61px 61px #171c20, -62px 62px #171c20, -63px 63px #171c20, -64px 64px #171c20, -65px 65px #171c20, -66px 66px #171c20, -67px 67px #171c20, -68px 68px #171c20, -69px 69px #171c20, -70px 70px #171c20, -71px 71px #171c20, -72px 72px #171c20, -73px 73px #171c20, -74px 74px #171c20, -75px 75px #171c20, -76px 76px #171c20, -77px 77px #171c20, -78px 78px #171c20, -79px 79px #171c20, -80px 80px #171c20, -81px 81px #171c20, -82px 82px #171c20, -83px 83px #171c20, -84px 84px #171c20, -85px 85px #171c20; }
+    text-shadow: 0px 0px #1c1c1c, -1px 1px #1c1c1c, -2px 2px #1c1c1c, -3px 3px #1c1c1c, -4px 4px #1c1c1c, -5px 5px #1c1c1c, -6px 6px #1c1c1c, -7px 7px #1c1c1c, -8px 8px #1c1c1c, -9px 9px #1c1c1c, -10px 10px #1c1c1c, -11px 11px #1c1c1c, -12px 12px #1c1c1c, -13px 13px #1c1c1c, -14px 14px #1c1c1c, -15px 15px #1c1c1c, -16px 16px #1c1c1c, -17px 17px #1c1c1c, -18px 18px #1c1c1c, -19px 19px #1c1c1c, -20px 20px #1c1c1c, -21px 21px #1c1c1c, -22px 22px #1c1c1c, -23px 23px #1c1c1c, -24px 24px #1c1c1c, -25px 25px #1c1c1c, -26px 26px #1c1c1c, -27px 27px #1c1c1c, -28px 28px #1c1c1c, -29px 29px #1c1c1c, -30px 30px #1c1c1c, -31px 31px #1c1c1c, -32px 32px #1c1c1c, -33px 33px #1c1c1c, -34px 34px #1c1c1c, -35px 35px #1c1c1c, -36px 36px #1c1c1c, -37px 37px #1c1c1c, -38px 38px #1c1c1c, -39px 39px #1c1c1c, -40px 40px #1c1c1c, -41px 41px #1c1c1c, -42px 42px #1c1c1c, -43px 43px #1c1c1c, -44px 44px #1c1c1c, -45px 45px #1c1c1c, -46px 46px #1c1c1c, -47px 47px #1c1c1c, -48px 48px #1c1c1c, -49px 49px #1c1c1c, -50px 50px #1c1c1c, -51px 51px #1c1c1c, -52px 52px #1c1c1c, -53px 53px #1c1c1c, -54px 54px #1c1c1c, -55px 55px #1c1c1c, -56px 56px #1c1c1c, -57px 57px #1c1c1c, -58px 58px #1c1c1c, -59px 59px #1c1c1c, -60px 60px #1c1c1c, -61px 61px #1c1c1c, -62px 62px #1c1c1c, -63px 63px #1c1c1c, -64px 64px #1c1c1c, -65px 65px #1c1c1c, -66px 66px #1c1c1c, -67px 67px #1c1c1c, -68px 68px #1c1c1c, -69px 69px #1c1c1c, -70px 70px #1c1c1c, -71px 71px #1c1c1c, -72px 72px #1c1c1c, -73px 73px #1c1c1c, -74px 74px #1c1c1c, -75px 75px #1c1c1c, -76px 76px #1c1c1c, -77px 77px #1c1c1c, -78px 78px #1c1c1c, -79px 79px #1c1c1c, -80px 80px #1c1c1c, -81px 81px #1c1c1c, -82px 82px #1c1c1c, -83px 83px #1c1c1c, -84px 84px #1c1c1c, -85px 85px #1c1c1c; }
   .btn-longshadow-left.btn-color-5:active, .btn-longshadow-left.btn-color-5.active, .btn-longshadow-left.btn-color-5.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
   .btn-longshadow-left.btn-neutral-color {
-    text-shadow: 0px 0px #171c20, -1px 1px #171c20, -2px 2px #171c20, -3px 3px #171c20, -4px 4px #171c20, -5px 5px #171c20, -6px 6px #171c20, -7px 7px #171c20, -8px 8px #171c20, -9px 9px #171c20, -10px 10px #171c20, -11px 11px #171c20, -12px 12px #171c20, -13px 13px #171c20, -14px 14px #171c20, -15px 15px #171c20, -16px 16px #171c20, -17px 17px #171c20, -18px 18px #171c20, -19px 19px #171c20, -20px 20px #171c20, -21px 21px #171c20, -22px 22px #171c20, -23px 23px #171c20, -24px 24px #171c20, -25px 25px #171c20, -26px 26px #171c20, -27px 27px #171c20, -28px 28px #171c20, -29px 29px #171c20, -30px 30px #171c20, -31px 31px #171c20, -32px 32px #171c20, -33px 33px #171c20, -34px 34px #171c20, -35px 35px #171c20, -36px 36px #171c20, -37px 37px #171c20, -38px 38px #171c20, -39px 39px #171c20, -40px 40px #171c20, -41px 41px #171c20, -42px 42px #171c20, -43px 43px #171c20, -44px 44px #171c20, -45px 45px #171c20, -46px 46px #171c20, -47px 47px #171c20, -48px 48px #171c20, -49px 49px #171c20, -50px 50px #171c20, -51px 51px #171c20, -52px 52px #171c20, -53px 53px #171c20, -54px 54px #171c20, -55px 55px #171c20, -56px 56px #171c20, -57px 57px #171c20, -58px 58px #171c20, -59px 59px #171c20, -60px 60px #171c20, -61px 61px #171c20, -62px 62px #171c20, -63px 63px #171c20, -64px 64px #171c20, -65px 65px #171c20, -66px 66px #171c20, -67px 67px #171c20, -68px 68px #171c20, -69px 69px #171c20, -70px 70px #171c20, -71px 71px #171c20, -72px 72px #171c20, -73px 73px #171c20, -74px 74px #171c20, -75px 75px #171c20, -76px 76px #171c20, -77px 77px #171c20, -78px 78px #171c20, -79px 79px #171c20, -80px 80px #171c20, -81px 81px #171c20, -82px 82px #171c20, -83px 83px #171c20, -84px 84px #171c20, -85px 85px #171c20; }
+    text-shadow: 0px 0px #1c1c1c, -1px 1px #1c1c1c, -2px 2px #1c1c1c, -3px 3px #1c1c1c, -4px 4px #1c1c1c, -5px 5px #1c1c1c, -6px 6px #1c1c1c, -7px 7px #1c1c1c, -8px 8px #1c1c1c, -9px 9px #1c1c1c, -10px 10px #1c1c1c, -11px 11px #1c1c1c, -12px 12px #1c1c1c, -13px 13px #1c1c1c, -14px 14px #1c1c1c, -15px 15px #1c1c1c, -16px 16px #1c1c1c, -17px 17px #1c1c1c, -18px 18px #1c1c1c, -19px 19px #1c1c1c, -20px 20px #1c1c1c, -21px 21px #1c1c1c, -22px 22px #1c1c1c, -23px 23px #1c1c1c, -24px 24px #1c1c1c, -25px 25px #1c1c1c, -26px 26px #1c1c1c, -27px 27px #1c1c1c, -28px 28px #1c1c1c, -29px 29px #1c1c1c, -30px 30px #1c1c1c, -31px 31px #1c1c1c, -32px 32px #1c1c1c, -33px 33px #1c1c1c, -34px 34px #1c1c1c, -35px 35px #1c1c1c, -36px 36px #1c1c1c, -37px 37px #1c1c1c, -38px 38px #1c1c1c, -39px 39px #1c1c1c, -40px 40px #1c1c1c, -41px 41px #1c1c1c, -42px 42px #1c1c1c, -43px 43px #1c1c1c, -44px 44px #1c1c1c, -45px 45px #1c1c1c, -46px 46px #1c1c1c, -47px 47px #1c1c1c, -48px 48px #1c1c1c, -49px 49px #1c1c1c, -50px 50px #1c1c1c, -51px 51px #1c1c1c, -52px 52px #1c1c1c, -53px 53px #1c1c1c, -54px 54px #1c1c1c, -55px 55px #1c1c1c, -56px 56px #1c1c1c, -57px 57px #1c1c1c, -58px 58px #1c1c1c, -59px 59px #1c1c1c, -60px 60px #1c1c1c, -61px 61px #1c1c1c, -62px 62px #1c1c1c, -63px 63px #1c1c1c, -64px 64px #1c1c1c, -65px 65px #1c1c1c, -66px 66px #1c1c1c, -67px 67px #1c1c1c, -68px 68px #1c1c1c, -69px 69px #1c1c1c, -70px 70px #1c1c1c, -71px 71px #1c1c1c, -72px 72px #1c1c1c, -73px 73px #1c1c1c, -74px 74px #1c1c1c, -75px 75px #1c1c1c, -76px 76px #1c1c1c, -77px 77px #1c1c1c, -78px 78px #1c1c1c, -79px 79px #1c1c1c, -80px 80px #1c1c1c, -81px 81px #1c1c1c, -82px 82px #1c1c1c, -83px 83px #1c1c1c, -84px 84px #1c1c1c, -85px 85px #1c1c1c; }
   .btn-longshadow-left.btn-neutral-color:active, .btn-longshadow-left.btn-neutral-color.active, .btn-longshadow-left.btn-neutral-color.is-active {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .4); }
 /*
@@ -1050,37 +1050,37 @@
  * (ex. .button-large, .button-small, etc.)
  */
 .btn-giant {
-  font-size: inherit * 1.75;
+  font-size: 1.75em;
   height: 70px;
   line-height: 70px;
   padding: 0 70px; }
 
 .btn-jumbo {
-  font-size: inherit * 1.5;
+  font-size: 1.5em;
   height: 60px;
   line-height: 60px;
   padding: 0 60px; }
 
 .btn-large {
-  font-size: inherit * 1.25;
+  font-size: 1.25em;
   height: 50px;
   line-height: 50px;
   padding: 0 50px; }
 
 .btn-normal {
-  font-size: inherit * 1;
+  font-size: 1em;
   height: 40px;
   line-height: 40px;
   padding: 0 40px; }
 
 .btn-small {
-  font-size: inherit * 0.75;
+  font-size: 0.75em;
   height: 30px;
   line-height: 30px;
   padding: 0 30px; }
 
 .btn-tiny {
-  font-size: inherit * 0.6;
+  font-size: 0.6em;
   height: 24px;
   line-height: 24px;
   padding: 0 24px; }
