@@ -37,7 +37,6 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Specify container classes.
 	$boldgrid_framework_configs['template']['pages']['page_home.php']['entry-header'] = 'container-fluid';
 	$boldgrid_framework_configs['template']['pages']['page_home.php']['entry-content'] = 'container-fluid';
-	$boldgrid_framework_configs['template']['pages']['page_home.php']['entry-footer'] = 'container-fluid';
 
 	/**
 	 * Customizer Configs
