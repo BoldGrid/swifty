@@ -176,6 +176,15 @@ blockquote,
 	margin: 15px 0;
 }
 
+@media only screen and (min-width: 768px) {
+	.sidebar-1 .sidebar #searchform .button-primary {
+		width: auto;
+		height: auto;
+		padding: 0 1em;
+		font-size: 14px;
+	}
+}
+
 /*------------------------------------------------------------------------
 # Plugins
 ------------------------------------------------------------------------*/
