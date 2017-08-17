@@ -162,7 +162,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 150;
 
 	// Typography Tagline Classes.
-	$boldgrid_framework_configs['template']['tagline-classes'] = 'h4 alt-font site-description';
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h4 site-description';
 
 	// Typography Relationships.
 	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.page-template-default .entry-title a'] = array(

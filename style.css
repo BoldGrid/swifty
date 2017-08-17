@@ -70,9 +70,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-default .entry-title {
-	margin: -25px 0 25px;
-}
 .site-description {
 	margin: 0 0 10px 5px;
 }
@@ -81,6 +78,13 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 }
 .entry-title a {
 	padding: 0 15px;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.page-template-default .entry-title {
+		margin: -25px 0 25px;
+	}
 }
 
 /*-----------------------------------------------
@@ -105,9 +109,6 @@ blockquote,
 	background: none;
 	margin: 15px 0 0;
 }
-.navbar-default .navbar-nav {
-	margin-left: -15px;
-}
 .navbar-default .navbar-nav > li > a {
 	padding: 10px;
 }
@@ -117,8 +118,22 @@ blockquote,
 
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+	.navbar-default .navbar-nav {
+		display: inline-block;
+		float: none;
+	}
+	.navbar-default .navbar-collapse {
+		text-align: center;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.navbar-default {
 		float: right;
+	}
+	.navbar-default .navbar-nav {
+		margin-left: -15px;
 	}
 }
 
