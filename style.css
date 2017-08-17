@@ -22,11 +22,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .entry-content {
 	margin: 0;
 }
-.archive .entry-footer,
-.single .entry-footer {
-	margin-bottom: 50px;
+.hentry {
+	margin: 0 auto 75px;
 }
-
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
