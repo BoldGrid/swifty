@@ -126,7 +126,10 @@
 	&.archive .site-footer,
 	&.single .site-content,
 	&.single .site-header,
-	&.single .site-footer {
+	&.single .site-footer,
+	&.blog .site-content,
+	&.blog .site-header,
+	&.blog .site-footer {
 		background: $palette-primary-neutral-color;
 		color: $text-contrast-palette-primary-neutral-color;
 	}
